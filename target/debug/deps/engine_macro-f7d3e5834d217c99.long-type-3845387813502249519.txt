@@ -1,0 +1,1 @@
+std::result::Result<proc_macro::TokenStream, std::io::Error>: std::convert::From<proc_macro2::TokenStream>
