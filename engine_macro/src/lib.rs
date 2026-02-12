@@ -2,12 +2,17 @@ use proc_macro::TokenStream;
 use syn::punctuated::Punctuated;
 use syn::{LitStr, Error, parse_macro_input, Token};
 use quote::quote;
-use std::fs;
+use std::{fs, path};
 use std::ffi;
 use std::path::PathBuf;
 use std::io::BufReader;
 use std::io::BufRead;
 use std::fs::File;
+
+#[proc_macro]
+pub fn module(_input: TokenStream) -> TokenStream {
+    quote! {}.into()
+}
 
 // engine
 // hi from another crate!
@@ -101,33 +106,145 @@ fn gather_comment_lines(path: PathBuf) -> Result<Vec<String>, std::io::Error> {
 
     Ok(result)
 }
-/*
+
 // ja
-struct Systems {
-    condition: String,
-    systems: Vec<String>
+struct Dependency {
+    module: String,
+    soft: bool
 }
 
-// struct arra hogy jól eltudjuk tárolni a cuccokat
-struct ModuleDecs {
+struct Attribute {
+    
+}
+
+struct Block {
+
+}
+
+struct SystemDesc {
+
+}
+
+// Tárolja egy engine macro syntaxisát
+struct Module {
     name: String,
-    systems: Vec<Systems>,
+    dependencies: Vec<Dependency>,
+    attributes: Vec<Attribute>,
+    blocks: Vec<Block>,
+    systems: Vec<SystemDesc>,
+
 }
 
-// Comment sorokból ModuleDesc-t csinál
-//
-// ennek folyamata:
-//
-//
-//
-//
-fn parse_comment_lines(lines: Vec<String>) {
-    
-    
+//////////
 
+// Pld: module! <name> {children}
+struct Section {
+    name: String, // Ha root akkor a nlv stb
+    subs: Vec<SubSection>,
+}
+
+impl Section {
+    fn new(name: String) -> Section {
+
+        Section {
+            name: name, 
+            subs: Vec::new(),
+        }
+        
+    }
+}
+
+// Pl: { <ident> {content} }
+struct SubSection {
+    content: String,
+    ident: String,
+}
+
+// Kinyeri a tokenetket
+fn extract_tokens(path: PathBuf) -> Result<Vec<String>, std::io::Error> {
+    
+    let mut result : Vec<String> = Vec::new();
+    
+    let file = File::open(&path)?;
+    let reader = BufReader::new(file);
+
+    let mut reading = false;
+    let mut depth : i32 = 0;
+    let mut current = String::new();
+
+    for line in reader.lines() {
+        let line = line?;
+
+        if line.trim_start().starts_with("module!") {
+            reading = true;
+        }
+
+        if (reading) {
+            for c in line.chars() {
+                if c.is_whitespace() {
+                    if (!current.is_empty()) {
+                        result.push(current.clone());
+                        current.clear();
+                    } 
+                }else if c == '(' {
+                    result.push(String::from('('));
+                    result.push(current.clone());
+                    current.clear();
+                    depth += 1;
+                    println!("{}", depth);
+                } else if c == ')' {
+                    result.push(current.clone()); 
+                    result.push(String::from(')'));
+                    current.clear();
+                    depth -= 1;
+                    println!("{}", depth);
+                    if depth == 0 {
+                        reading = false;
+                        break;
+                    }
+                } else {
+                    current.push(c);
+                }
+            }
+            if !current.is_empty() {result.push(current.clone());}
+        }
+    }
+    
+    Ok(result)
+}
+
+/*
+// Összegyűjti egy engine macro szekcióit
+fn gather_module_sections(path: PathBuf) -> Result<Vec<Section>, std::io::Error> {
+    
+    let mut result : Vec<Section> = Vec::new();
+
+    let file = File::open(&path)?;
+    let reader = BufReader::new(file);
+    let mut reading = false;
+
+    let mut words : Vec<String> = Vec::new();
+    
+    let mut i : i32 = 0;
+    for line in reader.lines() {
+        let line = line?;
+        
+        if line.starts_with("module!(") {
+            let reading = true;
+        }
+
+        i++;
+    }
+
+    Ok(result)
+}
+
+// Section -> Module parsing
+fn parse_module_section(section: Section) -> Module {
+    todo!()
 }*/
 
-
+/* Régi
 fn stuff(paths: Vec<PathBuf>) -> Result<TokenStream, std::io::Error> {
     
     // a név rossz :(
@@ -142,6 +259,27 @@ fn stuff(paths: Vec<PathBuf>) -> Result<TokenStream, std::io::Error> {
     }
         
     println!("{:?}", lines);
+
+    Ok(quote! {
+        println!("sigma");
+    }.into())
+}*/
+
+fn stuff(paths: Vec<PathBuf>) -> Result<TokenStream, std::io::Error> {
+
+    let mut modules: Vec<Module> = Vec::new();
+    let mut tokens: Vec<String> = Vec::new();
+
+    for path in paths {
+
+        let files = read_rust_files(path)?;
+
+        for file_path in files {
+            tokens.extend(extract_tokens(file_path)?);       
+        }
+    }
+
+    println!("{:?}", tokens);
 
     Ok(quote! {
         println!("sigma");
