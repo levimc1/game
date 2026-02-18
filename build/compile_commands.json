@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/lev1/Projects/lev1engine/game/build",
+  "command": "/usr/bin/cc  -I/home/lev1/Projects/lev1engine/game/inc -std=gnu17 -o CMakeFiles/Game.dir/src/glad.c.o -c /home/lev1/Projects/lev1engine/game/src/glad.c",
+  "file": "/home/lev1/Projects/lev1engine/game/src/glad.c",
+  "output": "CMakeFiles/Game.dir/src/glad.c.o"
+},
+{
+  "directory": "/home/lev1/Projects/lev1engine/game/build",
+  "command": "/usr/bin/c++  -I/home/lev1/Projects/lev1engine/game/inc -std=gnu++23 -o CMakeFiles/Game.dir/src/main.cpp.o -c /home/lev1/Projects/lev1engine/game/src/main.cpp",
+  "file": "/home/lev1/Projects/lev1engine/game/src/main.cpp",
+  "output": "CMakeFiles/Game.dir/src/main.cpp.o"
+}
+]

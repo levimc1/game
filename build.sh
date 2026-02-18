@@ -5,15 +5,15 @@
 set -e
 
 # Build létrehozása ha nincs
+rm -rf build
 mkdir -p build
-cd build
 
 # Cmake és build
-cmake ..
-make
+cmake -S . -B build -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+cmake --build build
 
 echo "[B] építés befejezve, futtatható build/Game alatt."
 echo "[B] futtatható futtatása"
 
 # futi 
-./Game
+./build/Game

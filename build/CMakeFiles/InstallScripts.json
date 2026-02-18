@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/lev1/Projects/lev1engine/game/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

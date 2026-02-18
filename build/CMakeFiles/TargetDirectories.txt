@@ -1,0 +1,3 @@
+/home/lev1/Projects/lev1engine/game/build/CMakeFiles/Game.dir
+/home/lev1/Projects/lev1engine/game/build/CMakeFiles/edit_cache.dir
+/home/lev1/Projects/lev1engine/game/build/CMakeFiles/rebuild_cache.dir
