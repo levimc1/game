@@ -5,13 +5,13 @@
 # compile CXX with /usr/bin/c++
 C_DEFINES = 
 
-C_INCLUDES = -I/home/lev1/Projects/lev1engine/game/inc
+C_INCLUDES = -I/home/lev1/Projects/lev1engine/game/src
 
 C_FLAGS = -std=gnu17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/lev1/Projects/lev1engine/game/inc
+CXX_INCLUDES = -I/home/lev1/Projects/lev1engine/game/src
 
 CXX_FLAGS = -std=gnu++23
 

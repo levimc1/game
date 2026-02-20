@@ -1,0 +1,10 @@
+[package]
+name = "game"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+#engine_macro = {path = "../engine_macro"}
+gl = "0.14.0"
+glfw-sys = "7.0.0"
+cc = "1.0"

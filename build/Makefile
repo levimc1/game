@@ -129,29 +129,101 @@ Game/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/build
 .PHONY : Game/fast
 
-src/glad.o: src/glad.c.o
-.PHONY : src/glad.o
+src/engine/renderer/renderer.o: src/engine/renderer/renderer.cpp.o
+.PHONY : src/engine/renderer/renderer.o
 
 # target to build an object file
-src/glad.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/glad.c.o
-.PHONY : src/glad.c.o
+src/engine/renderer/renderer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/renderer/renderer.cpp.o
+.PHONY : src/engine/renderer/renderer.cpp.o
 
-src/glad.i: src/glad.c.i
-.PHONY : src/glad.i
+src/engine/renderer/renderer.i: src/engine/renderer/renderer.cpp.i
+.PHONY : src/engine/renderer/renderer.i
 
 # target to preprocess a source file
-src/glad.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/glad.c.i
-.PHONY : src/glad.c.i
+src/engine/renderer/renderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/renderer/renderer.cpp.i
+.PHONY : src/engine/renderer/renderer.cpp.i
 
-src/glad.s: src/glad.c.s
-.PHONY : src/glad.s
+src/engine/renderer/renderer.s: src/engine/renderer/renderer.cpp.s
+.PHONY : src/engine/renderer/renderer.s
 
 # target to generate assembly for a file
-src/glad.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/glad.c.s
-.PHONY : src/glad.c.s
+src/engine/renderer/renderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/renderer/renderer.cpp.s
+.PHONY : src/engine/renderer/renderer.cpp.s
+
+src/engine/renderer/stages/init.o: src/engine/renderer/stages/init.cpp.o
+.PHONY : src/engine/renderer/stages/init.o
+
+# target to build an object file
+src/engine/renderer/stages/init.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/renderer/stages/init.cpp.o
+.PHONY : src/engine/renderer/stages/init.cpp.o
+
+src/engine/renderer/stages/init.i: src/engine/renderer/stages/init.cpp.i
+.PHONY : src/engine/renderer/stages/init.i
+
+# target to preprocess a source file
+src/engine/renderer/stages/init.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/renderer/stages/init.cpp.i
+.PHONY : src/engine/renderer/stages/init.cpp.i
+
+src/engine/renderer/stages/init.s: src/engine/renderer/stages/init.cpp.s
+.PHONY : src/engine/renderer/stages/init.s
+
+# target to generate assembly for a file
+src/engine/renderer/stages/init.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/renderer/stages/init.cpp.s
+.PHONY : src/engine/renderer/stages/init.cpp.s
+
+src/extern/glad.o: src/extern/glad.c.o
+.PHONY : src/extern/glad.o
+
+# target to build an object file
+src/extern/glad.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/extern/glad.c.o
+.PHONY : src/extern/glad.c.o
+
+src/extern/glad.i: src/extern/glad.c.i
+.PHONY : src/extern/glad.i
+
+# target to preprocess a source file
+src/extern/glad.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/extern/glad.c.i
+.PHONY : src/extern/glad.c.i
+
+src/extern/glad.s: src/extern/glad.c.s
+.PHONY : src/extern/glad.s
+
+# target to generate assembly for a file
+src/extern/glad.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/extern/glad.c.s
+.PHONY : src/extern/glad.c.s
+
+src/extern/glm/detail/glm.o: src/extern/glm/detail/glm.cpp.o
+.PHONY : src/extern/glm/detail/glm.o
+
+# target to build an object file
+src/extern/glm/detail/glm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/extern/glm/detail/glm.cpp.o
+.PHONY : src/extern/glm/detail/glm.cpp.o
+
+src/extern/glm/detail/glm.i: src/extern/glm/detail/glm.cpp.i
+.PHONY : src/extern/glm/detail/glm.i
+
+# target to preprocess a source file
+src/extern/glm/detail/glm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/extern/glm/detail/glm.cpp.i
+.PHONY : src/extern/glm/detail/glm.cpp.i
+
+src/extern/glm/detail/glm.s: src/extern/glm/detail/glm.cpp.s
+.PHONY : src/extern/glm/detail/glm.s
+
+# target to generate assembly for a file
+src/extern/glm/detail/glm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/extern/glm/detail/glm.cpp.s
+.PHONY : src/extern/glm/detail/glm.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -186,9 +258,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Game"
-	@echo "... src/glad.o"
-	@echo "... src/glad.i"
-	@echo "... src/glad.s"
+	@echo "... src/engine/renderer/renderer.o"
+	@echo "... src/engine/renderer/renderer.i"
+	@echo "... src/engine/renderer/renderer.s"
+	@echo "... src/engine/renderer/stages/init.o"
+	@echo "... src/engine/renderer/stages/init.i"
+	@echo "... src/engine/renderer/stages/init.s"
+	@echo "... src/extern/glad.o"
+	@echo "... src/extern/glad.i"
+	@echo "... src/extern/glad.s"
+	@echo "... src/extern/glm/detail/glm.o"
+	@echo "... src/extern/glm/detail/glm.i"
+	@echo "... src/extern/glm/detail/glm.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
