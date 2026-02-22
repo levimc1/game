@@ -8,12 +8,6 @@
 // dependenciák!
 // #define M_VMI
 
-// OpenGL include-ok
-#include <extern/glad/glad.h>
-#include <GL/gl.h>
-#include <extern/glm/glm.hpp>
-#include <GLFW/glfw3.h>
-
 #include "context.hpp"
 
 namespace renderer {
@@ -27,10 +21,9 @@ namespace renderer {
   
   // stage-ek.
   int init();
-  int draw();
-  int cleanup();
 
   // api-ok
+
   Module* get();
   Module create(); // Igenis kellenek paraméterek..
 

@@ -129,29 +129,101 @@ Game/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/build
 .PHONY : Game/fast
 
-src/engine/renderer/renderer.o: src/engine/renderer/renderer.cpp.o
-.PHONY : src/engine/renderer/renderer.o
+src/engine/engine.o: src/engine/engine.cpp.o
+.PHONY : src/engine/engine.o
 
 # target to build an object file
-src/engine/renderer/renderer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/renderer/renderer.cpp.o
-.PHONY : src/engine/renderer/renderer.cpp.o
+src/engine/engine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/engine.cpp.o
+.PHONY : src/engine/engine.cpp.o
 
-src/engine/renderer/renderer.i: src/engine/renderer/renderer.cpp.i
-.PHONY : src/engine/renderer/renderer.i
+src/engine/engine.i: src/engine/engine.cpp.i
+.PHONY : src/engine/engine.i
 
 # target to preprocess a source file
-src/engine/renderer/renderer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/renderer/renderer.cpp.i
-.PHONY : src/engine/renderer/renderer.cpp.i
+src/engine/engine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/engine.cpp.i
+.PHONY : src/engine/engine.cpp.i
 
-src/engine/renderer/renderer.s: src/engine/renderer/renderer.cpp.s
-.PHONY : src/engine/renderer/renderer.s
+src/engine/engine.s: src/engine/engine.cpp.s
+.PHONY : src/engine/engine.s
 
 # target to generate assembly for a file
-src/engine/renderer/renderer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/renderer/renderer.cpp.s
-.PHONY : src/engine/renderer/renderer.cpp.s
+src/engine/engine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/engine.cpp.s
+.PHONY : src/engine/engine.cpp.s
+
+src/engine/renderer/create.o: src/engine/renderer/create.cpp.o
+.PHONY : src/engine/renderer/create.o
+
+# target to build an object file
+src/engine/renderer/create.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/renderer/create.cpp.o
+.PHONY : src/engine/renderer/create.cpp.o
+
+src/engine/renderer/create.i: src/engine/renderer/create.cpp.i
+.PHONY : src/engine/renderer/create.i
+
+# target to preprocess a source file
+src/engine/renderer/create.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/renderer/create.cpp.i
+.PHONY : src/engine/renderer/create.cpp.i
+
+src/engine/renderer/create.s: src/engine/renderer/create.cpp.s
+.PHONY : src/engine/renderer/create.s
+
+# target to generate assembly for a file
+src/engine/renderer/create.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/renderer/create.cpp.s
+.PHONY : src/engine/renderer/create.cpp.s
+
+src/engine/renderer/stages/cleanup.o: src/engine/renderer/stages/cleanup.cpp.o
+.PHONY : src/engine/renderer/stages/cleanup.o
+
+# target to build an object file
+src/engine/renderer/stages/cleanup.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/renderer/stages/cleanup.cpp.o
+.PHONY : src/engine/renderer/stages/cleanup.cpp.o
+
+src/engine/renderer/stages/cleanup.i: src/engine/renderer/stages/cleanup.cpp.i
+.PHONY : src/engine/renderer/stages/cleanup.i
+
+# target to preprocess a source file
+src/engine/renderer/stages/cleanup.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/renderer/stages/cleanup.cpp.i
+.PHONY : src/engine/renderer/stages/cleanup.cpp.i
+
+src/engine/renderer/stages/cleanup.s: src/engine/renderer/stages/cleanup.cpp.s
+.PHONY : src/engine/renderer/stages/cleanup.s
+
+# target to generate assembly for a file
+src/engine/renderer/stages/cleanup.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/renderer/stages/cleanup.cpp.s
+.PHONY : src/engine/renderer/stages/cleanup.cpp.s
+
+src/engine/renderer/stages/draw.o: src/engine/renderer/stages/draw.cpp.o
+.PHONY : src/engine/renderer/stages/draw.o
+
+# target to build an object file
+src/engine/renderer/stages/draw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/renderer/stages/draw.cpp.o
+.PHONY : src/engine/renderer/stages/draw.cpp.o
+
+src/engine/renderer/stages/draw.i: src/engine/renderer/stages/draw.cpp.i
+.PHONY : src/engine/renderer/stages/draw.i
+
+# target to preprocess a source file
+src/engine/renderer/stages/draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/renderer/stages/draw.cpp.i
+.PHONY : src/engine/renderer/stages/draw.cpp.i
+
+src/engine/renderer/stages/draw.s: src/engine/renderer/stages/draw.cpp.s
+.PHONY : src/engine/renderer/stages/draw.s
+
+# target to generate assembly for a file
+src/engine/renderer/stages/draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/renderer/stages/draw.cpp.s
+.PHONY : src/engine/renderer/stages/draw.cpp.s
 
 src/engine/renderer/stages/init.o: src/engine/renderer/stages/init.cpp.o
 .PHONY : src/engine/renderer/stages/init.o
@@ -258,9 +330,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Game"
-	@echo "... src/engine/renderer/renderer.o"
-	@echo "... src/engine/renderer/renderer.i"
-	@echo "... src/engine/renderer/renderer.s"
+	@echo "... src/engine/engine.o"
+	@echo "... src/engine/engine.i"
+	@echo "... src/engine/engine.s"
+	@echo "... src/engine/renderer/create.o"
+	@echo "... src/engine/renderer/create.i"
+	@echo "... src/engine/renderer/create.s"
+	@echo "... src/engine/renderer/stages/cleanup.o"
+	@echo "... src/engine/renderer/stages/cleanup.i"
+	@echo "... src/engine/renderer/stages/cleanup.s"
+	@echo "... src/engine/renderer/stages/draw.o"
+	@echo "... src/engine/renderer/stages/draw.i"
+	@echo "... src/engine/renderer/stages/draw.s"
 	@echo "... src/engine/renderer/stages/init.o"
 	@echo "... src/engine/renderer/stages/init.i"
 	@echo "... src/engine/renderer/stages/init.s"
