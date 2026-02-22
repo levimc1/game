@@ -1,36 +1,6 @@
 [
 {
   "directory": "/home/lev1/Projects/lev1engine/game/build",
-  "command": "/usr/bin/c++  -I/home/lev1/Projects/lev1engine/game/src -std=gnu++23 -o CMakeFiles/Game.dir/src/engine/engine.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/engine.cpp",
-  "file": "/home/lev1/Projects/lev1engine/game/src/engine/engine.cpp",
-  "output": "CMakeFiles/Game.dir/src/engine/engine.cpp.o"
-},
-{
-  "directory": "/home/lev1/Projects/lev1engine/game/build",
-  "command": "/usr/bin/c++  -I/home/lev1/Projects/lev1engine/game/src -std=gnu++23 -o CMakeFiles/Game.dir/src/engine/renderer/create.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/renderer/create.cpp",
-  "file": "/home/lev1/Projects/lev1engine/game/src/engine/renderer/create.cpp",
-  "output": "CMakeFiles/Game.dir/src/engine/renderer/create.cpp.o"
-},
-{
-  "directory": "/home/lev1/Projects/lev1engine/game/build",
-  "command": "/usr/bin/c++  -I/home/lev1/Projects/lev1engine/game/src -std=gnu++23 -o CMakeFiles/Game.dir/src/engine/renderer/stages/cleanup.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/renderer/stages/cleanup.cpp",
-  "file": "/home/lev1/Projects/lev1engine/game/src/engine/renderer/stages/cleanup.cpp",
-  "output": "CMakeFiles/Game.dir/src/engine/renderer/stages/cleanup.cpp.o"
-},
-{
-  "directory": "/home/lev1/Projects/lev1engine/game/build",
-  "command": "/usr/bin/c++  -I/home/lev1/Projects/lev1engine/game/src -std=gnu++23 -o CMakeFiles/Game.dir/src/engine/renderer/stages/draw.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/renderer/stages/draw.cpp",
-  "file": "/home/lev1/Projects/lev1engine/game/src/engine/renderer/stages/draw.cpp",
-  "output": "CMakeFiles/Game.dir/src/engine/renderer/stages/draw.cpp.o"
-},
-{
-  "directory": "/home/lev1/Projects/lev1engine/game/build",
-  "command": "/usr/bin/c++  -I/home/lev1/Projects/lev1engine/game/src -std=gnu++23 -o CMakeFiles/Game.dir/src/engine/renderer/stages/init.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/renderer/stages/init.cpp",
-  "file": "/home/lev1/Projects/lev1engine/game/src/engine/renderer/stages/init.cpp",
-  "output": "CMakeFiles/Game.dir/src/engine/renderer/stages/init.cpp.o"
-},
-{
-  "directory": "/home/lev1/Projects/lev1engine/game/build",
   "command": "/usr/bin/cc  -I/home/lev1/Projects/lev1engine/game/src -std=gnu17 -o CMakeFiles/Game.dir/src/extern/glad.c.o -c /home/lev1/Projects/lev1engine/game/src/extern/glad.c",
   "file": "/home/lev1/Projects/lev1engine/game/src/extern/glad.c",
   "output": "CMakeFiles/Game.dir/src/extern/glad.c.o"
