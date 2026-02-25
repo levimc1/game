@@ -135,17 +135,23 @@ int main() {
    * 2D pixeleket csinál, ami a frame-ünk!
    * Ez NAGYON szzemélyre szabható! shaderekkel. stb.
    */
-  // OpenGL Bufferek felállítása - SOK GLOBÁL VÁLTOZÓ
+  // OpenGL Bufferek felállítása - SOK GLOBÁL VÁLTOZÓ - bemásolva learnOpenGL-ból
   float vertices[] = {
-    -0.5f, -0.5f, 0.0f,
-     0.5f, -0.5f, 0.0f,
-     0.0f,  0.5f, 0.0f
-  }; 
+     0.5f,  0.5f, 0.0f,  // top right
+     0.5f, -0.5f, 0.0f,  // bottom right
+    -0.5f, -0.5f, 0.0f,  // bottom left
+    -0.5f,  0.5f, 0.0f   // top left 
+  };
+  unsigned int indices[] = {  // note that we start from 0!
+    0, 1, 3,   // first triangle
+    1, 2, 3    // second triangle
+  };  
   // Objektum rajzolás lépései
   // 0. Létrehozás
-  GLuint VBO, VAO;
+  GLuint VBO, VAO, EBO;
   glGenVertexArrays(1, &VAO);
   glGenBuffers(1, &VBO);
+  glGenBuffers(1, &EBO);
 
   // 0.5 VAO-ban "Objekt" információ tárolása 
   glBindVertexArray(VAO); // Egy VAO -> Egy "Objektum" azaz chunk, stb.
@@ -158,6 +164,8 @@ int main() {
    * Az Adat egyszer változik, kevésszer használt -> STREAM_DRAW
    * Az adat többször változik, és akármennyiszer használt -> DYNAMIC_DRAW
    * */
+  glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
+  glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
 
   // 2. Vertex attrib létrehozása
   // VAO ÉS VERTEXATTRIBPOINTER NEM UGYANAZ!!!!
@@ -198,7 +206,7 @@ int main() {
 
     glClear(GL_COLOR_BUFFER_BIT);
     
-    glDrawArrays(GL_TRIANGLES, 0, 3); // 0 offset-el rajzolj 3 háromszöget.
+    glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0); // 0 offset-el rajzolj 6 indexelt háromszöget.
 
     // Past-frame
     
