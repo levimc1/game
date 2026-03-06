@@ -1,0 +1,66 @@
+
+// Példa file kb, magyarázatokkal.
+
+#include <engine/engine.hpp>
+#include <print>
+
+
+int main() {
+
+  std::println("Hello, {}", "World");
+
+  using namespace engine;
+  
+  // Több is lehet több játékhoz, de nem ajánott.
+  // Ez a state machine.
+  Context e = Context::init();
+
+  // Ezek ilyen átlag beállítások, akárhol hívhatók.
+  e.tickTime(1.0f/60.0f);
+
+  // Ezek ugyanazok, de setup()-ban fognak frissülni.
+  e.defaultWindowSize(800, 600);
+  e.defaultWindowTitle("Játék");
+  
+  // Most minden rendszert létrehozunk amit a játékunk használni fog.
+
+  ECSHandle ecs;
+  e.createState(ECSSchema::default(), ecs);
+  ECS::Queue query = ecs.queue<Position, Color>();
+
+  RendererHandle renderer;
+  e.createState(RendererSchema
+      ::builder()
+      .type(LEnum::FLAT)
+      .draw(LEnum::QUAD_INSTANCED)
+      .from(query)
+      .map(LEnum::COMPONENT, 0, LEnum::Position)
+      .map(LEnum::COMPONENT, 1, LEnum::Color)
+      .build(),
+      renderer
+      );
+  
+  ecs.addEntity<Position, Color, tPlayer>({0.0f, 0.0f}, {0.0f, 1.0f, 0.5f, 1.0f}, {});
+
+  // Majd használjuk ezeket
+  
+  // PreTick-el kezdünk, ami csak úgy van.
+  // ide input vagy vmi
+
+  e.beginTick();
+    for (auto entity : query) {
+      entity.position.y += 0.01;
+    } 
+    // sim
+    e.beginFrame();
+      e.pushBind(renderer);
+      e.pushBind(ecs); // Ez is kell mert ő nem fog : query-zni.
+      e.draw();
+      e.unbindAll();
+    e.endFrame();
+  e.endTick();
+
+  e.cleanup();
+
+  return 0;
+}

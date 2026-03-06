@@ -129,6 +129,150 @@ Game/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/build
 .PHONY : Game/fast
 
+src/engine/cleanup.o: src/engine/cleanup.cpp.o
+.PHONY : src/engine/cleanup.o
+
+# target to build an object file
+src/engine/cleanup.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/cleanup.cpp.o
+.PHONY : src/engine/cleanup.cpp.o
+
+src/engine/cleanup.i: src/engine/cleanup.cpp.i
+.PHONY : src/engine/cleanup.i
+
+# target to preprocess a source file
+src/engine/cleanup.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/cleanup.cpp.i
+.PHONY : src/engine/cleanup.cpp.i
+
+src/engine/cleanup.s: src/engine/cleanup.cpp.s
+.PHONY : src/engine/cleanup.s
+
+# target to generate assembly for a file
+src/engine/cleanup.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/cleanup.cpp.s
+.PHONY : src/engine/cleanup.cpp.s
+
+src/engine/draw.o: src/engine/draw.cpp.o
+.PHONY : src/engine/draw.o
+
+# target to build an object file
+src/engine/draw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/draw.cpp.o
+.PHONY : src/engine/draw.cpp.o
+
+src/engine/draw.i: src/engine/draw.cpp.i
+.PHONY : src/engine/draw.i
+
+# target to preprocess a source file
+src/engine/draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/draw.cpp.i
+.PHONY : src/engine/draw.cpp.i
+
+src/engine/draw.s: src/engine/draw.cpp.s
+.PHONY : src/engine/draw.s
+
+# target to generate assembly for a file
+src/engine/draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/draw.cpp.s
+.PHONY : src/engine/draw.cpp.s
+
+src/engine/init.o: src/engine/init.cpp.o
+.PHONY : src/engine/init.o
+
+# target to build an object file
+src/engine/init.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/init.cpp.o
+.PHONY : src/engine/init.cpp.o
+
+src/engine/init.i: src/engine/init.cpp.i
+.PHONY : src/engine/init.i
+
+# target to preprocess a source file
+src/engine/init.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/init.cpp.i
+.PHONY : src/engine/init.cpp.i
+
+src/engine/init.s: src/engine/init.cpp.s
+.PHONY : src/engine/init.s
+
+# target to generate assembly for a file
+src/engine/init.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/init.cpp.s
+.PHONY : src/engine/init.cpp.s
+
+src/engine/others.o: src/engine/others.cpp.o
+.PHONY : src/engine/others.o
+
+# target to build an object file
+src/engine/others.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/others.cpp.o
+.PHONY : src/engine/others.cpp.o
+
+src/engine/others.i: src/engine/others.cpp.i
+.PHONY : src/engine/others.i
+
+# target to preprocess a source file
+src/engine/others.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/others.cpp.i
+.PHONY : src/engine/others.cpp.i
+
+src/engine/others.s: src/engine/others.cpp.s
+.PHONY : src/engine/others.s
+
+# target to generate assembly for a file
+src/engine/others.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/others.cpp.s
+.PHONY : src/engine/others.cpp.s
+
+src/engine/run.o: src/engine/run.cpp.o
+.PHONY : src/engine/run.o
+
+# target to build an object file
+src/engine/run.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/run.cpp.o
+.PHONY : src/engine/run.cpp.o
+
+src/engine/run.i: src/engine/run.cpp.i
+.PHONY : src/engine/run.i
+
+# target to preprocess a source file
+src/engine/run.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/run.cpp.i
+.PHONY : src/engine/run.cpp.i
+
+src/engine/run.s: src/engine/run.cpp.s
+.PHONY : src/engine/run.s
+
+# target to generate assembly for a file
+src/engine/run.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/run.cpp.s
+.PHONY : src/engine/run.cpp.s
+
+src/engine/setup.o: src/engine/setup.cpp.o
+.PHONY : src/engine/setup.o
+
+# target to build an object file
+src/engine/setup.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/setup.cpp.o
+.PHONY : src/engine/setup.cpp.o
+
+src/engine/setup.i: src/engine/setup.cpp.i
+.PHONY : src/engine/setup.i
+
+# target to preprocess a source file
+src/engine/setup.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/setup.cpp.i
+.PHONY : src/engine/setup.cpp.i
+
+src/engine/setup.s: src/engine/setup.cpp.s
+.PHONY : src/engine/setup.s
+
+# target to generate assembly for a file
+src/engine/setup.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/setup.cpp.s
+.PHONY : src/engine/setup.cpp.s
+
 src/extern/glad.o: src/extern/glad.c.o
 .PHONY : src/extern/glad.o
 
@@ -210,6 +354,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Game"
+	@echo "... src/engine/cleanup.o"
+	@echo "... src/engine/cleanup.i"
+	@echo "... src/engine/cleanup.s"
+	@echo "... src/engine/draw.o"
+	@echo "... src/engine/draw.i"
+	@echo "... src/engine/draw.s"
+	@echo "... src/engine/init.o"
+	@echo "... src/engine/init.i"
+	@echo "... src/engine/init.s"
+	@echo "... src/engine/others.o"
+	@echo "... src/engine/others.i"
+	@echo "... src/engine/others.s"
+	@echo "... src/engine/run.o"
+	@echo "... src/engine/run.i"
+	@echo "... src/engine/run.s"
+	@echo "... src/engine/setup.o"
+	@echo "... src/engine/setup.i"
+	@echo "... src/engine/setup.s"
 	@echo "... src/extern/glad.o"
 	@echo "... src/extern/glad.i"
 	@echo "... src/extern/glad.s"

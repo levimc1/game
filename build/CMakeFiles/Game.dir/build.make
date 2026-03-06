@@ -72,10 +72,94 @@ include CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/codegen:
 .PHONY : CMakeFiles/Game.dir/codegen
 
+CMakeFiles/Game.dir/src/engine/cleanup.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/src/engine/cleanup.cpp.o: /home/lev1/Projects/lev1engine/game/src/engine/cleanup.cpp
+CMakeFiles/Game.dir/src/engine/cleanup.cpp.o: CMakeFiles/Game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lev1/Projects/lev1engine/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Game.dir/src/engine/cleanup.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Game.dir/src/engine/cleanup.cpp.o -MF CMakeFiles/Game.dir/src/engine/cleanup.cpp.o.d -o CMakeFiles/Game.dir/src/engine/cleanup.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/cleanup.cpp
+
+CMakeFiles/Game.dir/src/engine/cleanup.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Game.dir/src/engine/cleanup.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lev1/Projects/lev1engine/game/src/engine/cleanup.cpp > CMakeFiles/Game.dir/src/engine/cleanup.cpp.i
+
+CMakeFiles/Game.dir/src/engine/cleanup.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Game.dir/src/engine/cleanup.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lev1/Projects/lev1engine/game/src/engine/cleanup.cpp -o CMakeFiles/Game.dir/src/engine/cleanup.cpp.s
+
+CMakeFiles/Game.dir/src/engine/draw.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/src/engine/draw.cpp.o: /home/lev1/Projects/lev1engine/game/src/engine/draw.cpp
+CMakeFiles/Game.dir/src/engine/draw.cpp.o: CMakeFiles/Game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lev1/Projects/lev1engine/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Game.dir/src/engine/draw.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Game.dir/src/engine/draw.cpp.o -MF CMakeFiles/Game.dir/src/engine/draw.cpp.o.d -o CMakeFiles/Game.dir/src/engine/draw.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/draw.cpp
+
+CMakeFiles/Game.dir/src/engine/draw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Game.dir/src/engine/draw.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lev1/Projects/lev1engine/game/src/engine/draw.cpp > CMakeFiles/Game.dir/src/engine/draw.cpp.i
+
+CMakeFiles/Game.dir/src/engine/draw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Game.dir/src/engine/draw.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lev1/Projects/lev1engine/game/src/engine/draw.cpp -o CMakeFiles/Game.dir/src/engine/draw.cpp.s
+
+CMakeFiles/Game.dir/src/engine/init.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/src/engine/init.cpp.o: /home/lev1/Projects/lev1engine/game/src/engine/init.cpp
+CMakeFiles/Game.dir/src/engine/init.cpp.o: CMakeFiles/Game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lev1/Projects/lev1engine/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Game.dir/src/engine/init.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Game.dir/src/engine/init.cpp.o -MF CMakeFiles/Game.dir/src/engine/init.cpp.o.d -o CMakeFiles/Game.dir/src/engine/init.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/init.cpp
+
+CMakeFiles/Game.dir/src/engine/init.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Game.dir/src/engine/init.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lev1/Projects/lev1engine/game/src/engine/init.cpp > CMakeFiles/Game.dir/src/engine/init.cpp.i
+
+CMakeFiles/Game.dir/src/engine/init.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Game.dir/src/engine/init.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lev1/Projects/lev1engine/game/src/engine/init.cpp -o CMakeFiles/Game.dir/src/engine/init.cpp.s
+
+CMakeFiles/Game.dir/src/engine/others.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/src/engine/others.cpp.o: /home/lev1/Projects/lev1engine/game/src/engine/others.cpp
+CMakeFiles/Game.dir/src/engine/others.cpp.o: CMakeFiles/Game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lev1/Projects/lev1engine/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Game.dir/src/engine/others.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Game.dir/src/engine/others.cpp.o -MF CMakeFiles/Game.dir/src/engine/others.cpp.o.d -o CMakeFiles/Game.dir/src/engine/others.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/others.cpp
+
+CMakeFiles/Game.dir/src/engine/others.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Game.dir/src/engine/others.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lev1/Projects/lev1engine/game/src/engine/others.cpp > CMakeFiles/Game.dir/src/engine/others.cpp.i
+
+CMakeFiles/Game.dir/src/engine/others.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Game.dir/src/engine/others.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lev1/Projects/lev1engine/game/src/engine/others.cpp -o CMakeFiles/Game.dir/src/engine/others.cpp.s
+
+CMakeFiles/Game.dir/src/engine/run.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/src/engine/run.cpp.o: /home/lev1/Projects/lev1engine/game/src/engine/run.cpp
+CMakeFiles/Game.dir/src/engine/run.cpp.o: CMakeFiles/Game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lev1/Projects/lev1engine/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Game.dir/src/engine/run.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Game.dir/src/engine/run.cpp.o -MF CMakeFiles/Game.dir/src/engine/run.cpp.o.d -o CMakeFiles/Game.dir/src/engine/run.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/run.cpp
+
+CMakeFiles/Game.dir/src/engine/run.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Game.dir/src/engine/run.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lev1/Projects/lev1engine/game/src/engine/run.cpp > CMakeFiles/Game.dir/src/engine/run.cpp.i
+
+CMakeFiles/Game.dir/src/engine/run.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Game.dir/src/engine/run.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lev1/Projects/lev1engine/game/src/engine/run.cpp -o CMakeFiles/Game.dir/src/engine/run.cpp.s
+
+CMakeFiles/Game.dir/src/engine/setup.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/src/engine/setup.cpp.o: /home/lev1/Projects/lev1engine/game/src/engine/setup.cpp
+CMakeFiles/Game.dir/src/engine/setup.cpp.o: CMakeFiles/Game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lev1/Projects/lev1engine/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Game.dir/src/engine/setup.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Game.dir/src/engine/setup.cpp.o -MF CMakeFiles/Game.dir/src/engine/setup.cpp.o.d -o CMakeFiles/Game.dir/src/engine/setup.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/setup.cpp
+
+CMakeFiles/Game.dir/src/engine/setup.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Game.dir/src/engine/setup.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lev1/Projects/lev1engine/game/src/engine/setup.cpp > CMakeFiles/Game.dir/src/engine/setup.cpp.i
+
+CMakeFiles/Game.dir/src/engine/setup.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Game.dir/src/engine/setup.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lev1/Projects/lev1engine/game/src/engine/setup.cpp -o CMakeFiles/Game.dir/src/engine/setup.cpp.s
+
 CMakeFiles/Game.dir/src/extern/glad.c.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/src/extern/glad.c.o: /home/lev1/Projects/lev1engine/game/src/extern/glad.c
 CMakeFiles/Game.dir/src/extern/glad.c.o: CMakeFiles/Game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lev1/Projects/lev1engine/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Game.dir/src/extern/glad.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lev1/Projects/lev1engine/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Game.dir/src/extern/glad.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Game.dir/src/extern/glad.c.o -MF CMakeFiles/Game.dir/src/extern/glad.c.o.d -o CMakeFiles/Game.dir/src/extern/glad.c.o -c /home/lev1/Projects/lev1engine/game/src/extern/glad.c
 
 CMakeFiles/Game.dir/src/extern/glad.c.i: cmake_force
@@ -89,7 +173,7 @@ CMakeFiles/Game.dir/src/extern/glad.c.s: cmake_force
 CMakeFiles/Game.dir/src/extern/glm/detail/glm.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/src/extern/glm/detail/glm.cpp.o: /home/lev1/Projects/lev1engine/game/src/extern/glm/detail/glm.cpp
 CMakeFiles/Game.dir/src/extern/glm/detail/glm.cpp.o: CMakeFiles/Game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lev1/Projects/lev1engine/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Game.dir/src/extern/glm/detail/glm.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lev1/Projects/lev1engine/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Game.dir/src/extern/glm/detail/glm.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Game.dir/src/extern/glm/detail/glm.cpp.o -MF CMakeFiles/Game.dir/src/extern/glm/detail/glm.cpp.o.d -o CMakeFiles/Game.dir/src/extern/glm/detail/glm.cpp.o -c /home/lev1/Projects/lev1engine/game/src/extern/glm/detail/glm.cpp
 
 CMakeFiles/Game.dir/src/extern/glm/detail/glm.cpp.i: cmake_force
@@ -103,7 +187,7 @@ CMakeFiles/Game.dir/src/extern/glm/detail/glm.cpp.s: cmake_force
 CMakeFiles/Game.dir/src/main.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/src/main.cpp.o: /home/lev1/Projects/lev1engine/game/src/main.cpp
 CMakeFiles/Game.dir/src/main.cpp.o: CMakeFiles/Game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lev1/Projects/lev1engine/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Game.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lev1/Projects/lev1engine/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Game.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Game.dir/src/main.cpp.o -MF CMakeFiles/Game.dir/src/main.cpp.o.d -o CMakeFiles/Game.dir/src/main.cpp.o -c /home/lev1/Projects/lev1engine/game/src/main.cpp
 
 CMakeFiles/Game.dir/src/main.cpp.i: cmake_force
@@ -116,6 +200,12 @@ CMakeFiles/Game.dir/src/main.cpp.s: cmake_force
 
 # Object files for target Game
 Game_OBJECTS = \
+"CMakeFiles/Game.dir/src/engine/cleanup.cpp.o" \
+"CMakeFiles/Game.dir/src/engine/draw.cpp.o" \
+"CMakeFiles/Game.dir/src/engine/init.cpp.o" \
+"CMakeFiles/Game.dir/src/engine/others.cpp.o" \
+"CMakeFiles/Game.dir/src/engine/run.cpp.o" \
+"CMakeFiles/Game.dir/src/engine/setup.cpp.o" \
 "CMakeFiles/Game.dir/src/extern/glad.c.o" \
 "CMakeFiles/Game.dir/src/extern/glm/detail/glm.cpp.o" \
 "CMakeFiles/Game.dir/src/main.cpp.o"
@@ -123,6 +213,12 @@ Game_OBJECTS = \
 # External object files for target Game
 Game_EXTERNAL_OBJECTS =
 
+Game: CMakeFiles/Game.dir/src/engine/cleanup.cpp.o
+Game: CMakeFiles/Game.dir/src/engine/draw.cpp.o
+Game: CMakeFiles/Game.dir/src/engine/init.cpp.o
+Game: CMakeFiles/Game.dir/src/engine/others.cpp.o
+Game: CMakeFiles/Game.dir/src/engine/run.cpp.o
+Game: CMakeFiles/Game.dir/src/engine/setup.cpp.o
 Game: CMakeFiles/Game.dir/src/extern/glad.c.o
 Game: CMakeFiles/Game.dir/src/extern/glm/detail/glm.cpp.o
 Game: CMakeFiles/Game.dir/src/main.cpp.o
@@ -135,7 +231,7 @@ Game: /usr/lib/libOpenGL.so
 Game: /usr/lib/libGLX.so
 Game: /usr/lib/libGLU.so
 Game: CMakeFiles/Game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/lev1/Projects/lev1engine/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/lev1/Projects/lev1engine/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

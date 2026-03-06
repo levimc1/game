@@ -9,6 +9,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/lev1/Projects/lev1engine/game/src/extern/glad.c" "CMakeFiles/Game.dir/src/extern/glad.c.o" "gcc" "CMakeFiles/Game.dir/src/extern/glad.c.o.d"
+  "/home/lev1/Projects/lev1engine/game/src/engine/cleanup.cpp" "CMakeFiles/Game.dir/src/engine/cleanup.cpp.o" "gcc" "CMakeFiles/Game.dir/src/engine/cleanup.cpp.o.d"
+  "/home/lev1/Projects/lev1engine/game/src/engine/draw.cpp" "CMakeFiles/Game.dir/src/engine/draw.cpp.o" "gcc" "CMakeFiles/Game.dir/src/engine/draw.cpp.o.d"
+  "/home/lev1/Projects/lev1engine/game/src/engine/init.cpp" "CMakeFiles/Game.dir/src/engine/init.cpp.o" "gcc" "CMakeFiles/Game.dir/src/engine/init.cpp.o.d"
+  "/home/lev1/Projects/lev1engine/game/src/engine/others.cpp" "CMakeFiles/Game.dir/src/engine/others.cpp.o" "gcc" "CMakeFiles/Game.dir/src/engine/others.cpp.o.d"
+  "/home/lev1/Projects/lev1engine/game/src/engine/run.cpp" "CMakeFiles/Game.dir/src/engine/run.cpp.o" "gcc" "CMakeFiles/Game.dir/src/engine/run.cpp.o.d"
+  "/home/lev1/Projects/lev1engine/game/src/engine/setup.cpp" "CMakeFiles/Game.dir/src/engine/setup.cpp.o" "gcc" "CMakeFiles/Game.dir/src/engine/setup.cpp.o.d"
   "/home/lev1/Projects/lev1engine/game/src/extern/glm/detail/glm.cpp" "CMakeFiles/Game.dir/src/extern/glm/detail/glm.cpp.o" "gcc" "CMakeFiles/Game.dir/src/extern/glm/detail/glm.cpp.o.d"
   "/home/lev1/Projects/lev1engine/game/src/main.cpp" "CMakeFiles/Game.dir/src/main.cpp.o" "gcc" "CMakeFiles/Game.dir/src/main.cpp.o.d"
   "" "Game" "gcc" "CMakeFiles/Game.dir/link.d"
