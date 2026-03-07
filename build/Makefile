@@ -129,54 +129,6 @@ Game/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/build
 .PHONY : Game/fast
 
-src/engine/cleanup.o: src/engine/cleanup.cpp.o
-.PHONY : src/engine/cleanup.o
-
-# target to build an object file
-src/engine/cleanup.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/cleanup.cpp.o
-.PHONY : src/engine/cleanup.cpp.o
-
-src/engine/cleanup.i: src/engine/cleanup.cpp.i
-.PHONY : src/engine/cleanup.i
-
-# target to preprocess a source file
-src/engine/cleanup.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/cleanup.cpp.i
-.PHONY : src/engine/cleanup.cpp.i
-
-src/engine/cleanup.s: src/engine/cleanup.cpp.s
-.PHONY : src/engine/cleanup.s
-
-# target to generate assembly for a file
-src/engine/cleanup.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/cleanup.cpp.s
-.PHONY : src/engine/cleanup.cpp.s
-
-src/engine/draw.o: src/engine/draw.cpp.o
-.PHONY : src/engine/draw.o
-
-# target to build an object file
-src/engine/draw.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/draw.cpp.o
-.PHONY : src/engine/draw.cpp.o
-
-src/engine/draw.i: src/engine/draw.cpp.i
-.PHONY : src/engine/draw.i
-
-# target to preprocess a source file
-src/engine/draw.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/draw.cpp.i
-.PHONY : src/engine/draw.cpp.i
-
-src/engine/draw.s: src/engine/draw.cpp.s
-.PHONY : src/engine/draw.s
-
-# target to generate assembly for a file
-src/engine/draw.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/draw.cpp.s
-.PHONY : src/engine/draw.cpp.s
-
 src/engine/init.o: src/engine/init.cpp.o
 .PHONY : src/engine/init.o
 
@@ -201,77 +153,197 @@ src/engine/init.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/init.cpp.s
 .PHONY : src/engine/init.cpp.s
 
-src/engine/others.o: src/engine/others.cpp.o
-.PHONY : src/engine/others.o
+src/engine/runtime/bind.o: src/engine/runtime/bind.cpp.o
+.PHONY : src/engine/runtime/bind.o
 
 # target to build an object file
-src/engine/others.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/others.cpp.o
-.PHONY : src/engine/others.cpp.o
+src/engine/runtime/bind.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/bind.cpp.o
+.PHONY : src/engine/runtime/bind.cpp.o
 
-src/engine/others.i: src/engine/others.cpp.i
-.PHONY : src/engine/others.i
+src/engine/runtime/bind.i: src/engine/runtime/bind.cpp.i
+.PHONY : src/engine/runtime/bind.i
 
 # target to preprocess a source file
-src/engine/others.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/others.cpp.i
-.PHONY : src/engine/others.cpp.i
+src/engine/runtime/bind.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/bind.cpp.i
+.PHONY : src/engine/runtime/bind.cpp.i
 
-src/engine/others.s: src/engine/others.cpp.s
-.PHONY : src/engine/others.s
+src/engine/runtime/bind.s: src/engine/runtime/bind.cpp.s
+.PHONY : src/engine/runtime/bind.s
 
 # target to generate assembly for a file
-src/engine/others.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/others.cpp.s
-.PHONY : src/engine/others.cpp.s
+src/engine/runtime/bind.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/bind.cpp.s
+.PHONY : src/engine/runtime/bind.cpp.s
 
-src/engine/run.o: src/engine/run.cpp.o
-.PHONY : src/engine/run.o
+src/engine/runtime/create_state.o: src/engine/runtime/create_state.cpp.o
+.PHONY : src/engine/runtime/create_state.o
 
 # target to build an object file
-src/engine/run.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/run.cpp.o
-.PHONY : src/engine/run.cpp.o
+src/engine/runtime/create_state.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/create_state.cpp.o
+.PHONY : src/engine/runtime/create_state.cpp.o
 
-src/engine/run.i: src/engine/run.cpp.i
-.PHONY : src/engine/run.i
+src/engine/runtime/create_state.i: src/engine/runtime/create_state.cpp.i
+.PHONY : src/engine/runtime/create_state.i
 
 # target to preprocess a source file
-src/engine/run.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/run.cpp.i
-.PHONY : src/engine/run.cpp.i
+src/engine/runtime/create_state.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/create_state.cpp.i
+.PHONY : src/engine/runtime/create_state.cpp.i
 
-src/engine/run.s: src/engine/run.cpp.s
-.PHONY : src/engine/run.s
+src/engine/runtime/create_state.s: src/engine/runtime/create_state.cpp.s
+.PHONY : src/engine/runtime/create_state.s
 
 # target to generate assembly for a file
-src/engine/run.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/run.cpp.s
-.PHONY : src/engine/run.cpp.s
+src/engine/runtime/create_state.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/create_state.cpp.s
+.PHONY : src/engine/runtime/create_state.cpp.s
 
-src/engine/setup.o: src/engine/setup.cpp.o
-.PHONY : src/engine/setup.o
+src/engine/runtime/functions/draw.o: src/engine/runtime/functions/draw.cpp.o
+.PHONY : src/engine/runtime/functions/draw.o
 
 # target to build an object file
-src/engine/setup.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/setup.cpp.o
-.PHONY : src/engine/setup.cpp.o
+src/engine/runtime/functions/draw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/functions/draw.cpp.o
+.PHONY : src/engine/runtime/functions/draw.cpp.o
 
-src/engine/setup.i: src/engine/setup.cpp.i
-.PHONY : src/engine/setup.i
+src/engine/runtime/functions/draw.i: src/engine/runtime/functions/draw.cpp.i
+.PHONY : src/engine/runtime/functions/draw.i
 
 # target to preprocess a source file
-src/engine/setup.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/setup.cpp.i
-.PHONY : src/engine/setup.cpp.i
+src/engine/runtime/functions/draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/functions/draw.cpp.i
+.PHONY : src/engine/runtime/functions/draw.cpp.i
 
-src/engine/setup.s: src/engine/setup.cpp.s
-.PHONY : src/engine/setup.s
+src/engine/runtime/functions/draw.s: src/engine/runtime/functions/draw.cpp.s
+.PHONY : src/engine/runtime/functions/draw.s
 
 # target to generate assembly for a file
-src/engine/setup.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/setup.cpp.s
-.PHONY : src/engine/setup.cpp.s
+src/engine/runtime/functions/draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/functions/draw.cpp.s
+.PHONY : src/engine/runtime/functions/draw.cpp.s
+
+src/engine/runtime/internal/cleanup.o: src/engine/runtime/internal/cleanup.cpp.o
+.PHONY : src/engine/runtime/internal/cleanup.o
+
+# target to build an object file
+src/engine/runtime/internal/cleanup.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/internal/cleanup.cpp.o
+.PHONY : src/engine/runtime/internal/cleanup.cpp.o
+
+src/engine/runtime/internal/cleanup.i: src/engine/runtime/internal/cleanup.cpp.i
+.PHONY : src/engine/runtime/internal/cleanup.i
+
+# target to preprocess a source file
+src/engine/runtime/internal/cleanup.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/internal/cleanup.cpp.i
+.PHONY : src/engine/runtime/internal/cleanup.cpp.i
+
+src/engine/runtime/internal/cleanup.s: src/engine/runtime/internal/cleanup.cpp.s
+.PHONY : src/engine/runtime/internal/cleanup.s
+
+# target to generate assembly for a file
+src/engine/runtime/internal/cleanup.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/internal/cleanup.cpp.s
+.PHONY : src/engine/runtime/internal/cleanup.cpp.s
+
+src/engine/runtime/internal/others.o: src/engine/runtime/internal/others.cpp.o
+.PHONY : src/engine/runtime/internal/others.o
+
+# target to build an object file
+src/engine/runtime/internal/others.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/internal/others.cpp.o
+.PHONY : src/engine/runtime/internal/others.cpp.o
+
+src/engine/runtime/internal/others.i: src/engine/runtime/internal/others.cpp.i
+.PHONY : src/engine/runtime/internal/others.i
+
+# target to preprocess a source file
+src/engine/runtime/internal/others.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/internal/others.cpp.i
+.PHONY : src/engine/runtime/internal/others.cpp.i
+
+src/engine/runtime/internal/others.s: src/engine/runtime/internal/others.cpp.s
+.PHONY : src/engine/runtime/internal/others.s
+
+# target to generate assembly for a file
+src/engine/runtime/internal/others.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/internal/others.cpp.s
+.PHONY : src/engine/runtime/internal/others.cpp.s
+
+src/engine/runtime/internal/setup.o: src/engine/runtime/internal/setup.cpp.o
+.PHONY : src/engine/runtime/internal/setup.o
+
+# target to build an object file
+src/engine/runtime/internal/setup.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/internal/setup.cpp.o
+.PHONY : src/engine/runtime/internal/setup.cpp.o
+
+src/engine/runtime/internal/setup.i: src/engine/runtime/internal/setup.cpp.i
+.PHONY : src/engine/runtime/internal/setup.i
+
+# target to preprocess a source file
+src/engine/runtime/internal/setup.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/internal/setup.cpp.i
+.PHONY : src/engine/runtime/internal/setup.cpp.i
+
+src/engine/runtime/internal/setup.s: src/engine/runtime/internal/setup.cpp.s
+.PHONY : src/engine/runtime/internal/setup.s
+
+# target to generate assembly for a file
+src/engine/runtime/internal/setup.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/internal/setup.cpp.s
+.PHONY : src/engine/runtime/internal/setup.cpp.s
+
+src/engine/runtime/run.o: src/engine/runtime/run.cpp.o
+.PHONY : src/engine/runtime/run.o
+
+# target to build an object file
+src/engine/runtime/run.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/run.cpp.o
+.PHONY : src/engine/runtime/run.cpp.o
+
+src/engine/runtime/run.i: src/engine/runtime/run.cpp.i
+.PHONY : src/engine/runtime/run.i
+
+# target to preprocess a source file
+src/engine/runtime/run.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/run.cpp.i
+.PHONY : src/engine/runtime/run.cpp.i
+
+src/engine/runtime/run.s: src/engine/runtime/run.cpp.s
+.PHONY : src/engine/runtime/run.s
+
+# target to generate assembly for a file
+src/engine/runtime/run.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/run.cpp.s
+.PHONY : src/engine/runtime/run.cpp.s
+
+src/engine/runtime/utils/load_shader.o: src/engine/runtime/utils/load_shader.cpp.o
+.PHONY : src/engine/runtime/utils/load_shader.o
+
+# target to build an object file
+src/engine/runtime/utils/load_shader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/utils/load_shader.cpp.o
+.PHONY : src/engine/runtime/utils/load_shader.cpp.o
+
+src/engine/runtime/utils/load_shader.i: src/engine/runtime/utils/load_shader.cpp.i
+.PHONY : src/engine/runtime/utils/load_shader.i
+
+# target to preprocess a source file
+src/engine/runtime/utils/load_shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/utils/load_shader.cpp.i
+.PHONY : src/engine/runtime/utils/load_shader.cpp.i
+
+src/engine/runtime/utils/load_shader.s: src/engine/runtime/utils/load_shader.cpp.s
+.PHONY : src/engine/runtime/utils/load_shader.s
+
+# target to generate assembly for a file
+src/engine/runtime/utils/load_shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/utils/load_shader.cpp.s
+.PHONY : src/engine/runtime/utils/load_shader.cpp.s
 
 src/extern/glad.o: src/extern/glad.c.o
 .PHONY : src/extern/glad.o
@@ -354,24 +426,33 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Game"
-	@echo "... src/engine/cleanup.o"
-	@echo "... src/engine/cleanup.i"
-	@echo "... src/engine/cleanup.s"
-	@echo "... src/engine/draw.o"
-	@echo "... src/engine/draw.i"
-	@echo "... src/engine/draw.s"
 	@echo "... src/engine/init.o"
 	@echo "... src/engine/init.i"
 	@echo "... src/engine/init.s"
-	@echo "... src/engine/others.o"
-	@echo "... src/engine/others.i"
-	@echo "... src/engine/others.s"
-	@echo "... src/engine/run.o"
-	@echo "... src/engine/run.i"
-	@echo "... src/engine/run.s"
-	@echo "... src/engine/setup.o"
-	@echo "... src/engine/setup.i"
-	@echo "... src/engine/setup.s"
+	@echo "... src/engine/runtime/bind.o"
+	@echo "... src/engine/runtime/bind.i"
+	@echo "... src/engine/runtime/bind.s"
+	@echo "... src/engine/runtime/create_state.o"
+	@echo "... src/engine/runtime/create_state.i"
+	@echo "... src/engine/runtime/create_state.s"
+	@echo "... src/engine/runtime/functions/draw.o"
+	@echo "... src/engine/runtime/functions/draw.i"
+	@echo "... src/engine/runtime/functions/draw.s"
+	@echo "... src/engine/runtime/internal/cleanup.o"
+	@echo "... src/engine/runtime/internal/cleanup.i"
+	@echo "... src/engine/runtime/internal/cleanup.s"
+	@echo "... src/engine/runtime/internal/others.o"
+	@echo "... src/engine/runtime/internal/others.i"
+	@echo "... src/engine/runtime/internal/others.s"
+	@echo "... src/engine/runtime/internal/setup.o"
+	@echo "... src/engine/runtime/internal/setup.i"
+	@echo "... src/engine/runtime/internal/setup.s"
+	@echo "... src/engine/runtime/run.o"
+	@echo "... src/engine/runtime/run.i"
+	@echo "... src/engine/runtime/run.s"
+	@echo "... src/engine/runtime/utils/load_shader.o"
+	@echo "... src/engine/runtime/utils/load_shader.i"
+	@echo "... src/engine/runtime/utils/load_shader.s"
 	@echo "... src/extern/glad.o"
 	@echo "... src/extern/glad.i"
 	@echo "... src/extern/glad.s"

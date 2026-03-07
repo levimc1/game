@@ -9,5 +9,8 @@ namespace engine::L {
     //Ide specifikus hibák.
     STOP = 0, // running() adja vissza
   };
-
+  
+  enum class State : uint32_t {
+    Renderer,
+  };
 }

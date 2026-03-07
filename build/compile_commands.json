@@ -1,39 +1,57 @@
 [
 {
   "directory": "/home/lev1/Projects/lev1engine/game/build",
-  "command": "/usr/bin/c++  -I/home/lev1/Projects/lev1engine/game/src -std=gnu++23 -o CMakeFiles/Game.dir/src/engine/cleanup.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/cleanup.cpp",
-  "file": "/home/lev1/Projects/lev1engine/game/src/engine/cleanup.cpp",
-  "output": "CMakeFiles/Game.dir/src/engine/cleanup.cpp.o"
-},
-{
-  "directory": "/home/lev1/Projects/lev1engine/game/build",
-  "command": "/usr/bin/c++  -I/home/lev1/Projects/lev1engine/game/src -std=gnu++23 -o CMakeFiles/Game.dir/src/engine/draw.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/draw.cpp",
-  "file": "/home/lev1/Projects/lev1engine/game/src/engine/draw.cpp",
-  "output": "CMakeFiles/Game.dir/src/engine/draw.cpp.o"
-},
-{
-  "directory": "/home/lev1/Projects/lev1engine/game/build",
   "command": "/usr/bin/c++  -I/home/lev1/Projects/lev1engine/game/src -std=gnu++23 -o CMakeFiles/Game.dir/src/engine/init.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/init.cpp",
   "file": "/home/lev1/Projects/lev1engine/game/src/engine/init.cpp",
   "output": "CMakeFiles/Game.dir/src/engine/init.cpp.o"
 },
 {
   "directory": "/home/lev1/Projects/lev1engine/game/build",
-  "command": "/usr/bin/c++  -I/home/lev1/Projects/lev1engine/game/src -std=gnu++23 -o CMakeFiles/Game.dir/src/engine/others.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/others.cpp",
-  "file": "/home/lev1/Projects/lev1engine/game/src/engine/others.cpp",
-  "output": "CMakeFiles/Game.dir/src/engine/others.cpp.o"
+  "command": "/usr/bin/c++  -I/home/lev1/Projects/lev1engine/game/src -std=gnu++23 -o CMakeFiles/Game.dir/src/engine/runtime/bind.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/runtime/bind.cpp",
+  "file": "/home/lev1/Projects/lev1engine/game/src/engine/runtime/bind.cpp",
+  "output": "CMakeFiles/Game.dir/src/engine/runtime/bind.cpp.o"
 },
 {
   "directory": "/home/lev1/Projects/lev1engine/game/build",
-  "command": "/usr/bin/c++  -I/home/lev1/Projects/lev1engine/game/src -std=gnu++23 -o CMakeFiles/Game.dir/src/engine/run.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/run.cpp",
-  "file": "/home/lev1/Projects/lev1engine/game/src/engine/run.cpp",
-  "output": "CMakeFiles/Game.dir/src/engine/run.cpp.o"
+  "command": "/usr/bin/c++  -I/home/lev1/Projects/lev1engine/game/src -std=gnu++23 -o CMakeFiles/Game.dir/src/engine/runtime/create_state.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/runtime/create_state.cpp",
+  "file": "/home/lev1/Projects/lev1engine/game/src/engine/runtime/create_state.cpp",
+  "output": "CMakeFiles/Game.dir/src/engine/runtime/create_state.cpp.o"
 },
 {
   "directory": "/home/lev1/Projects/lev1engine/game/build",
-  "command": "/usr/bin/c++  -I/home/lev1/Projects/lev1engine/game/src -std=gnu++23 -o CMakeFiles/Game.dir/src/engine/setup.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/setup.cpp",
-  "file": "/home/lev1/Projects/lev1engine/game/src/engine/setup.cpp",
-  "output": "CMakeFiles/Game.dir/src/engine/setup.cpp.o"
+  "command": "/usr/bin/c++  -I/home/lev1/Projects/lev1engine/game/src -std=gnu++23 -o CMakeFiles/Game.dir/src/engine/runtime/functions/draw.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/runtime/functions/draw.cpp",
+  "file": "/home/lev1/Projects/lev1engine/game/src/engine/runtime/functions/draw.cpp",
+  "output": "CMakeFiles/Game.dir/src/engine/runtime/functions/draw.cpp.o"
+},
+{
+  "directory": "/home/lev1/Projects/lev1engine/game/build",
+  "command": "/usr/bin/c++  -I/home/lev1/Projects/lev1engine/game/src -std=gnu++23 -o CMakeFiles/Game.dir/src/engine/runtime/internal/cleanup.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/runtime/internal/cleanup.cpp",
+  "file": "/home/lev1/Projects/lev1engine/game/src/engine/runtime/internal/cleanup.cpp",
+  "output": "CMakeFiles/Game.dir/src/engine/runtime/internal/cleanup.cpp.o"
+},
+{
+  "directory": "/home/lev1/Projects/lev1engine/game/build",
+  "command": "/usr/bin/c++  -I/home/lev1/Projects/lev1engine/game/src -std=gnu++23 -o CMakeFiles/Game.dir/src/engine/runtime/internal/others.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/runtime/internal/others.cpp",
+  "file": "/home/lev1/Projects/lev1engine/game/src/engine/runtime/internal/others.cpp",
+  "output": "CMakeFiles/Game.dir/src/engine/runtime/internal/others.cpp.o"
+},
+{
+  "directory": "/home/lev1/Projects/lev1engine/game/build",
+  "command": "/usr/bin/c++  -I/home/lev1/Projects/lev1engine/game/src -std=gnu++23 -o CMakeFiles/Game.dir/src/engine/runtime/internal/setup.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/runtime/internal/setup.cpp",
+  "file": "/home/lev1/Projects/lev1engine/game/src/engine/runtime/internal/setup.cpp",
+  "output": "CMakeFiles/Game.dir/src/engine/runtime/internal/setup.cpp.o"
+},
+{
+  "directory": "/home/lev1/Projects/lev1engine/game/build",
+  "command": "/usr/bin/c++  -I/home/lev1/Projects/lev1engine/game/src -std=gnu++23 -o CMakeFiles/Game.dir/src/engine/runtime/run.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/runtime/run.cpp",
+  "file": "/home/lev1/Projects/lev1engine/game/src/engine/runtime/run.cpp",
+  "output": "CMakeFiles/Game.dir/src/engine/runtime/run.cpp.o"
+},
+{
+  "directory": "/home/lev1/Projects/lev1engine/game/build",
+  "command": "/usr/bin/c++  -I/home/lev1/Projects/lev1engine/game/src -std=gnu++23 -o CMakeFiles/Game.dir/src/engine/runtime/utils/load_shader.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/runtime/utils/load_shader.cpp",
+  "file": "/home/lev1/Projects/lev1engine/game/src/engine/runtime/utils/load_shader.cpp",
+  "output": "CMakeFiles/Game.dir/src/engine/runtime/utils/load_shader.cpp.o"
 },
 {
   "directory": "/home/lev1/Projects/lev1engine/game/build",

@@ -20,8 +20,8 @@ namespace engine::internal {
   struct RendererState {
   // Bindolt, rendszerenkénti
        
-    engine::RendererSchema schema;
-
+    engine::RendererSchema schema; 
+    GLuint VAO, VBO, EBO, shader;
   };
 
 }
