@@ -1,3 +1,10 @@
 target/
 Cargo.lock
 build/
+*.o
+*.a
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+.cmake/
