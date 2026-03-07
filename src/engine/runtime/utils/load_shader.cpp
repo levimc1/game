@@ -3,6 +3,7 @@
 #include <fstream>
 #include <sstream>
 #include <print>
+#include <filesystem>
 
 #include <extern/glad/glad.h>
 
@@ -11,10 +12,15 @@
 
 namespace engine {
 
+static std::filesystem::path shaderBase() {
+    return std::filesystem::canonical("/proc/self/exe").parent_path() / "../src/assets/shaders/";
+}
+
 static std::string readFile(const std::string& path) {
-    std::ifstream file(path);
+    std::filesystem::path full = shaderBase() / path;
+    std::ifstream file(full);
     if (!file.is_open()) {
-        std::println("[Shader] Nem lehet megnyitni: {}", path);
+        std::println("[Shader] Nem lehet megnyitni: {}", full.string());
         return "";
     }
     std::ostringstream ss;
@@ -41,10 +47,10 @@ static GLuint compileShader(GLenum type, const std::string& src, const std::stri
 }
 
 GLuint utils::loadShader(const std::string& vertPath, const std::string& fragPath) {
-    const std::string base = "../src/assets/shaders/";
+    //const std::string base = "../src/assets/shaders/";
 
-    std::string vertSrc = readFile(base + vertPath);
-    std::string fragSrc = readFile(base + fragPath);
+    std::string vertSrc = readFile(vertPath);
+    std::string fragSrc = readFile(fragPath);
     if (vertSrc.empty() || fragSrc.empty()) return 0;
 
     GLuint vert = compileShader(GL_VERTEX_SHADER,   vertSrc, vertPath);

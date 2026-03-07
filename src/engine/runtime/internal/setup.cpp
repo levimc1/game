@@ -31,6 +31,18 @@ L::Result Context::setup() {
   
     glfwMakeContextCurrent(window);
     gladLoadGLLoader((GLADloadproc)glfwGetProcAddress);
+    
+    glfwWindowHint(GLFW_OPENGL_DEBUG_CONTEXT, GL_TRUE);
+
+    glEnable(GL_DEBUG_OUTPUT);
+    glEnable(GL_DEBUG_OUTPUT_SYNCHRONOUS);
+    glDebugMessageCallback([](GLenum source, GLenum type, GLuint id,
+      GLenum severity, GLsizei length, const GLchar* message, const void* userParam)
+      {
+        if (severity == GL_DEBUG_SEVERITY_HIGH) {
+            std::println("[GL ERROR] {}", message);
+        }
+      }, nullptr);
 
     glViewport(0, 0, 800, 600);
     glfwSetFramebufferSizeCallback(window, framebufferSizeCallback);
@@ -38,8 +50,10 @@ L::Result Context::setup() {
   
   for (auto& renderer : this->state.renderers) {
     // NEM GLOBÁLIS STATE-BŐL! SETUP NEM TUDHAT BINDOKRÓL.
-    GLuint& VAO = renderer.VAO, VBO =     renderer.VBO,
-            EBO = renderer.EBO, shader =  renderer.shader;
+    GLuint& VAO    = renderer.VAO;
+    GLuint& VBO    = renderer.VBO;
+    GLuint& EBO    = renderer.EBO;
+    GLuint& shader = renderer.shader;
     shader = utils::loadShader("shader.vert", "shader.frag");
 
     glGenVertexArrays(1, &VAO);
