@@ -1,9 +1,15 @@
 #include "../../context.hpp"
+#include "engine/common.hpp"
+#include "engine/states/renderer/state.hpp"
 
 #include <engine/runtime/utils/utils.hpp>
 #include <engine/states/renderer/global.hpp>
+#include <print>
 
 // TODO: -> oszd fel a kódot shcemakra
+
+// debug eszköz
+#define HERE std::println("{}:{}", __FILE__, __LINE__);
 
 using namespace engine;
 
@@ -12,37 +18,34 @@ void framebufferSizeCallback(GLFWwindow* window, int width, int height) {
   glViewport(0, 0, width, height);
 }
 
-L::Result Context::setup() {
-  
+L::Result Context::setup() {  
   // Semmi beállítás nincsen. csak egy kocka rajzoló.
-   
+
   // Csak egyszer
   if (!this->state.renderers.empty()) {
-    glfwInit();
-  
+
+    if (!glfwInit()) {
+      std::println("[SETUP] Nem sikerült betölteni a glfw-t");
+      return L::Result::FAILURE;
+    }
 
     GLFWwindow*& window = this->state.renderer.window;
   
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
-
+    
     this->state.renderer.window = glfwCreateWindow(800, 600, "Windows 67", NULL, NULL);
+    if (!window) {
+      std::println("[SETUP] Nem sikerült lérehozni az abalakot!");
+      return L::Result::FAILURE;
+    }
   
     glfwMakeContextCurrent(window);
-    gladLoadGLLoader((GLADloadproc)glfwGetProcAddress);
-    
-    glfwWindowHint(GLFW_OPENGL_DEBUG_CONTEXT, GL_TRUE);
-
-    glEnable(GL_DEBUG_OUTPUT);
-    glEnable(GL_DEBUG_OUTPUT_SYNCHRONOUS);
-    glDebugMessageCallback([](GLenum source, GLenum type, GLuint id,
-      GLenum severity, GLsizei length, const GLchar* message, const void* userParam)
-      {
-        if (severity == GL_DEBUG_SEVERITY_HIGH) {
-            std::println("[GL ERROR] {}", message);
-        }
-      }, nullptr);
+    if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
+      std::println("[SETUP] Nem sikerült betölteni a GLAD-ot!");
+      return L::Result::FAILURE;
+    }
 
     glViewport(0, 0, 800, 600);
     glfwSetFramebufferSizeCallback(window, framebufferSizeCallback);
