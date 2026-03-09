@@ -18,7 +18,7 @@ int main() {
 
 	e.targetFPS{60.0f};
 
-	Közd össze több rendszerrel
+	//Kösd össze több rendszerrel
 	//renderer.connection({.vertexData{other.id}})
 
 	return e.run({
