@@ -28,16 +28,16 @@ namespace engine {
       stateCleaners.reserve(10);
     }
 
-    template<System System>
-    inline static void regSystem(System sys) {
+    template<System S>
+    inline static void regSystem(S& sys) {
       states.push_back(std::monostate());
       sys.setup(states.back());
       stateCleaners.push_back([&sys]() {sys.cleanup();});
       sys.id = states.size() -1;
     }
 
-    template<System... Systems>
-    inline static void regSystem(Systems... systems) {
+    template<S&... Systems>
+    inline static void regSystem(Ss&... systems) {
       (regSystem(systems), ...);
     }
     
