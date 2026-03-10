@@ -1,10 +1,9 @@
 CMakeFiles/Game.dir/src/main.cpp.o: \
  /home/lev1/Projects/lev1engine/game/src/main.cpp \
  /usr/include/stdc-predef.h \
- /home/lev1/Projects/lev1engine/game/src/engine/engine.hpp \
  /home/lev1/Projects/lev1engine/game/src/engine/context.hpp \
- /home/lev1/Projects/lev1engine/game/src/engine/common.hpp \
- /usr/include/c++/15.2.1/cstdint \
+ /home/lev1/Projects/lev1engine/game/src/engine/state.hpp \
+ /usr/include/c++/15.2.1/variant /usr/include/c++/15.2.1/bits/version.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -13,26 +12,74 @@ CMakeFiles/Game.dir/src/main.cpp.o: \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
  /usr/include/c++/15.2.1/pstl/pstl_config.h \
+ /usr/include/c++/15.2.1/initializer_list \
+ /usr/include/c++/15.2.1/type_traits \
+ /usr/include/c++/15.2.1/bits/enable_special_members.h \
+ /usr/include/c++/15.2.1/bits/exception_defines.h \
+ /usr/include/c++/15.2.1/bits/functional_hash.h \
+ /usr/include/c++/15.2.1/bits/hash_bytes.h \
+ /usr/include/c++/15.2.1/bits/invoke.h \
+ /usr/include/c++/15.2.1/bits/move.h \
+ /usr/include/c++/15.2.1/bits/monostate.h /usr/include/c++/15.2.1/compare \
+ /usr/include/c++/15.2.1/concepts \
+ /usr/include/c++/15.2.1/bits/parse_numbers.h \
+ /usr/include/c++/15.2.1/ext/numeric_traits.h \
+ /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
+ /usr/include/c++/15.2.1/ext/type_traits.h \
+ /usr/include/c++/15.2.1/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/15.2.1/bits/concept_check.h \
+ /usr/include/c++/15.2.1/debug/assertions.h \
+ /usr/include/c++/15.2.1/bits/stl_iterator_base_types.h \
+ /usr/include/c++/15.2.1/bits/iterator_concepts.h \
+ /usr/include/c++/15.2.1/bits/ptr_traits.h \
+ /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+ /usr/include/c++/15.2.1/bits/stl_construct.h /usr/include/c++/15.2.1/new \
+ /usr/include/c++/15.2.1/bits/exception.h \
+ /usr/include/c++/15.2.1/bits/utility.h /usr/include/c++/15.2.1/vector \
+ /usr/include/c++/15.2.1/bits/requires_hosted.h \
+ /usr/include/c++/15.2.1/bits/stl_algobase.h \
+ /usr/include/c++/15.2.1/bits/functexcept.h \
+ /usr/include/c++/15.2.1/bits/stl_pair.h \
+ /usr/include/c++/15.2.1/bits/stl_iterator.h \
+ /usr/include/c++/15.2.1/debug/debug.h \
+ /usr/include/c++/15.2.1/bits/predefined_ops.h \
+ /usr/include/c++/15.2.1/bit /usr/include/c++/15.2.1/bits/allocator.h \
+ /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+ /usr/include/c++/15.2.1/bits/new_allocator.h \
+ /usr/include/c++/15.2.1/bits/memoryfwd.h \
+ /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
+ /usr/include/c++/15.2.1/ext/alloc_traits.h \
+ /usr/include/c++/15.2.1/bits/alloc_traits.h \
+ /usr/include/c++/15.2.1/bits/stl_vector.h \
+ /usr/include/c++/15.2.1/bits/ranges_base.h \
+ /usr/include/c++/15.2.1/bits/max_size_type.h \
+ /usr/include/c++/15.2.1/numbers \
+ /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+ /usr/include/c++/15.2.1/bits/ranges_util.h \
+ /usr/include/c++/15.2.1/bits/stl_bvector.h \
+ /usr/include/c++/15.2.1/bits/refwrap.h \
+ /usr/include/c++/15.2.1/bits/stl_function.h \
+ /usr/include/c++/15.2.1/backward/binders.h \
+ /usr/include/c++/15.2.1/bits/range_access.h \
+ /usr/include/c++/15.2.1/bits/vector.tcc \
+ /usr/include/c++/15.2.1/bits/memory_resource.h \
+ /usr/include/c++/15.2.1/cstddef \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
+ /usr/include/c++/15.2.1/bits/uses_allocator.h \
+ /usr/include/c++/15.2.1/bits/uses_allocator_args.h \
+ /usr/include/c++/15.2.1/tuple /usr/include/c++/15.2.1/bits/formatfwd.h \
+ /home/lev1/Projects/lev1engine/game/src/engine/systems/TestRendererState.hpp \
+ /home/lev1/Projects/lev1engine/game/src/extern/glad/glad.h \
+ /usr/include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
  /usr/include/bits/types.h /usr/include/bits/typesizes.h \
  /usr/include/bits/time64.h /usr/include/bits/wchar.h \
  /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
- /usr/include/bits/stdint-least.h \
- /home/lev1/Projects/lev1engine/game/src/engine/states/renderer/schema.hpp \
- /home/lev1/Projects/lev1engine/game/src/engine/state.hpp \
- /home/lev1/Projects/lev1engine/game/src/engine/states/renderer/state.hpp \
- /home/lev1/Projects/lev1engine/game/src/extern/glad/glad.h \
- /usr/include/KHR/khrplatform.h /usr/include/GLFW/glfw3.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
+ /usr/include/bits/stdint-least.h /usr/include/GLFW/glfw3.h \
  /home/lev1/Projects/lev1engine/game/src/extern/glm/glm.hpp \
  /home/lev1/Projects/lev1engine/game/src/extern/glm/detail/_fixes.hpp \
- /usr/include/c++/15.2.1/cmath \
- /usr/include/c++/15.2.1/bits/requires_hosted.h \
- /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
- /usr/include/c++/15.2.1/bits/version.h \
- /usr/include/c++/15.2.1/type_traits \
- /usr/include/c++/15.2.1/ext/type_traits.h /usr/include/math.h \
+ /usr/include/c++/15.2.1/cmath /usr/include/math.h \
  /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
  /usr/include/bits/floatn.h /usr/include/bits/floatn-common.h \
  /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
@@ -57,28 +104,7 @@ CMakeFiles/Game.dir/src/main.cpp.o: \
  /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
  /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/bits/stdlib-float.h /usr/include/c++/15.2.1/bits/specfun.h \
- /usr/include/c++/15.2.1/bits/stl_algobase.h \
- /usr/include/c++/15.2.1/bits/functexcept.h \
- /usr/include/c++/15.2.1/bits/exception_defines.h \
- /usr/include/c++/15.2.1/ext/numeric_traits.h \
- /usr/include/c++/15.2.1/bits/stl_pair.h \
- /usr/include/c++/15.2.1/bits/move.h \
- /usr/include/c++/15.2.1/bits/utility.h /usr/include/c++/15.2.1/compare \
- /usr/include/c++/15.2.1/concepts \
- /usr/include/c++/15.2.1/bits/stl_iterator_base_types.h \
- /usr/include/c++/15.2.1/bits/iterator_concepts.h \
- /usr/include/c++/15.2.1/bits/ptr_traits.h \
- /usr/include/c++/15.2.1/bits/ranges_cmp.h \
- /usr/include/c++/15.2.1/bits/stl_iterator_base_funcs.h \
- /usr/include/c++/15.2.1/bits/concept_check.h \
- /usr/include/c++/15.2.1/debug/assertions.h \
- /usr/include/c++/15.2.1/bits/stl_iterator.h /usr/include/c++/15.2.1/new \
- /usr/include/c++/15.2.1/bits/exception.h \
- /usr/include/c++/15.2.1/bits/stl_construct.h \
- /usr/include/c++/15.2.1/debug/debug.h \
- /usr/include/c++/15.2.1/bits/predefined_ops.h \
- /usr/include/c++/15.2.1/bit /usr/include/c++/15.2.1/limits \
- /usr/include/c++/15.2.1/tr1/gamma.tcc \
+ /usr/include/c++/15.2.1/limits /usr/include/c++/15.2.1/tr1/gamma.tcc \
  /usr/include/c++/15.2.1/tr1/special_function_util.h \
  /usr/include/c++/15.2.1/tr1/bessel_function.tcc \
  /usr/include/c++/15.2.1/tr1/beta_function.tcc \
@@ -92,9 +118,8 @@ CMakeFiles/Game.dir/src/main.cpp.o: \
  /usr/include/c++/15.2.1/tr1/riemann_zeta.tcc \
  /home/lev1/Projects/lev1engine/game/src/extern/glm/detail/setup.hpp \
  /usr/include/c++/15.2.1/cassert /usr/include/assert.h \
- /usr/include/c++/15.2.1/cstddef \
  /home/lev1/Projects/lev1engine/game/src/extern/glm/detail/../simd/platform.h \
- /usr/include/c++/15.2.1/climits \
+ /usr/include/c++/15.2.1/cstdint /usr/include/c++/15.2.1/climits \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h \
  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
@@ -130,43 +155,14 @@ CMakeFiles/Game.dir/src/main.cpp.o: \
  /home/lev1/Projects/lev1engine/game/src/extern/glm/./ext/../detail/type_vec3.inl \
  /home/lev1/Projects/lev1engine/game/src/extern/glm/./ext/../detail/compute_vector_decl.hpp \
  /usr/include/c++/15.2.1/functional \
- /usr/include/c++/15.2.1/bits/stl_function.h \
- /usr/include/c++/15.2.1/backward/binders.h /usr/include/c++/15.2.1/tuple \
- /usr/include/c++/15.2.1/bits/uses_allocator.h \
- /usr/include/c++/15.2.1/bits/invoke.h \
- /usr/include/c++/15.2.1/bits/ranges_util.h \
- /usr/include/c++/15.2.1/bits/ranges_base.h \
- /usr/include/c++/15.2.1/initializer_list \
- /usr/include/c++/15.2.1/bits/max_size_type.h \
- /usr/include/c++/15.2.1/numbers \
- /usr/include/c++/15.2.1/bits/functional_hash.h \
- /usr/include/c++/15.2.1/bits/hash_bytes.h \
- /usr/include/c++/15.2.1/bits/refwrap.h \
  /usr/include/c++/15.2.1/bits/std_function.h \
  /usr/include/c++/15.2.1/typeinfo /usr/include/c++/15.2.1/unordered_map \
  /usr/include/c++/15.2.1/bits/unordered_map.h \
  /usr/include/c++/15.2.1/bits/hashtable.h \
  /usr/include/c++/15.2.1/bits/hashtable_policy.h \
  /usr/include/c++/15.2.1/ext/aligned_buffer.h \
- /usr/include/c++/15.2.1/ext/alloc_traits.h \
- /usr/include/c++/15.2.1/bits/alloc_traits.h \
- /usr/include/c++/15.2.1/bits/memoryfwd.h \
- /usr/include/c++/15.2.1/bits/allocator.h \
- /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
- /usr/include/c++/15.2.1/bits/new_allocator.h \
- /usr/include/c++/15.2.1/bits/enable_special_members.h \
  /usr/include/c++/15.2.1/bits/node_handle.h \
- /usr/include/c++/15.2.1/bits/range_access.h \
- /usr/include/c++/15.2.1/bits/erase_if.h \
- /usr/include/c++/15.2.1/bits/memory_resource.h \
- /usr/include/c++/15.2.1/bits/uses_allocator_args.h \
- /usr/include/c++/15.2.1/vector \
- /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
- /usr/include/c++/15.2.1/bits/stl_vector.h \
- /usr/include/c++/15.2.1/bits/ranges_algobase.h \
- /usr/include/c++/15.2.1/bits/stl_bvector.h \
- /usr/include/c++/15.2.1/bits/vector.tcc \
- /usr/include/c++/15.2.1/bits/formatfwd.h /usr/include/c++/15.2.1/array \
+ /usr/include/c++/15.2.1/bits/erase_if.h /usr/include/c++/15.2.1/array \
  /usr/include/c++/15.2.1/bits/move_only_function.h \
  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
  /home/lev1/Projects/lev1engine/game/src/extern/glm/./ext/../detail/_vectorize.hpp \
@@ -281,6 +277,8 @@ CMakeFiles/Game.dir/src/main.cpp.o: \
  /home/lev1/Projects/lev1engine/game/src/extern/glm/detail/type_half.inl \
  /home/lev1/Projects/lev1engine/game/src/extern/glm/integer.hpp \
  /home/lev1/Projects/lev1engine/game/src/extern/glm/detail/func_integer.inl \
+ /home/lev1/Projects/lev1engine/game/src/engine/engine.hpp \
+ /home/lev1/Projects/lev1engine/game/src/engine/systems/TestRenderer.hpp \
  /usr/include/c++/15.2.1/print /usr/include/c++/15.2.1/format \
  /usr/include/c++/15.2.1/charconv /usr/include/c++/15.2.1/bits/charconv.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
@@ -356,14 +354,10 @@ CMakeFiles/Game.dir/src/main.cpp.o: \
  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
  /usr/include/c++/15.2.1/bits/locale_conv.h \
  /usr/include/c++/15.2.1/optional /usr/include/c++/15.2.1/span \
- /usr/include/c++/15.2.1/bits/monostate.h \
  /usr/include/c++/15.2.1/bits/unicode.h \
  /usr/include/c++/15.2.1/bits/stl_algo.h \
  /usr/include/c++/15.2.1/bits/algorithmfwd.h \
  /usr/include/c++/15.2.1/bits/stl_heap.h \
  /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
  /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
- /usr/include/c++/15.2.1/bits/unicode-data.h \
- /home/lev1/Projects/lev1engine/game/src/engine/states/renderer/handle.hpp \
- /home/lev1/Projects/lev1engine/game/src/engine/states/renderer/renderer.hpp \
- /home/lev1/Projects/lev1engine/game/src/engine/states/renderer/global.hpp
+ /usr/include/c++/15.2.1/bits/unicode-data.h

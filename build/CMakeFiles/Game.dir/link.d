@@ -2,15 +2,10 @@ Game: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o \
-  CMakeFiles/Game.dir/src/engine/init.cpp.o \
-  CMakeFiles/Game.dir/src/engine/runtime/bind.cpp.o \
-  CMakeFiles/Game.dir/src/engine/runtime/create_state.cpp.o \
-  CMakeFiles/Game.dir/src/engine/runtime/functions/draw.cpp.o \
-  CMakeFiles/Game.dir/src/engine/runtime/internal/cleanup.cpp.o \
-  CMakeFiles/Game.dir/src/engine/runtime/internal/others.cpp.o \
-  CMakeFiles/Game.dir/src/engine/runtime/internal/setup.cpp.o \
-  CMakeFiles/Game.dir/src/engine/runtime/run.cpp.o \
-  CMakeFiles/Game.dir/src/engine/runtime/utils/load_shader.cpp.o \
+  CMakeFiles/Game.dir/src/engine/systems/TestRenderer/cleanup.cpp.o \
+  CMakeFiles/Game.dir/src/engine/systems/TestRenderer/draw.cpp.o \
+  CMakeFiles/Game.dir/src/engine/systems/TestRenderer/setup.cpp.o \
+  CMakeFiles/Game.dir/src/engine/systems/TestRenderer/shaderloader.cpp.o \
   CMakeFiles/Game.dir/src/extern/glad.c.o \
   CMakeFiles/Game.dir/src/extern/glm/detail/glm.cpp.o \
   CMakeFiles/Game.dir/src/main.cpp.o \
@@ -66,23 +61,13 @@ Game: \
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o:
 
-CMakeFiles/Game.dir/src/engine/init.cpp.o:
+CMakeFiles/Game.dir/src/engine/systems/TestRenderer/cleanup.cpp.o:
 
-CMakeFiles/Game.dir/src/engine/runtime/bind.cpp.o:
+CMakeFiles/Game.dir/src/engine/systems/TestRenderer/draw.cpp.o:
 
-CMakeFiles/Game.dir/src/engine/runtime/create_state.cpp.o:
+CMakeFiles/Game.dir/src/engine/systems/TestRenderer/setup.cpp.o:
 
-CMakeFiles/Game.dir/src/engine/runtime/functions/draw.cpp.o:
-
-CMakeFiles/Game.dir/src/engine/runtime/internal/cleanup.cpp.o:
-
-CMakeFiles/Game.dir/src/engine/runtime/internal/others.cpp.o:
-
-CMakeFiles/Game.dir/src/engine/runtime/internal/setup.cpp.o:
-
-CMakeFiles/Game.dir/src/engine/runtime/run.cpp.o:
-
-CMakeFiles/Game.dir/src/engine/runtime/utils/load_shader.cpp.o:
+CMakeFiles/Game.dir/src/engine/systems/TestRenderer/shaderloader.cpp.o:
 
 CMakeFiles/Game.dir/src/extern/glad.c.o:
 

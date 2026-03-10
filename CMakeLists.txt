@@ -21,6 +21,7 @@ file(GLOB_RECURSE SOURCES
 
 add_executable(${PROJECT_NAME} ${SOURCES})
 
+target_compile_options(Game PRIVATE -g -O0)
 #target_compile_options(Game PRIVATE -g -fsanitize=address)
 #target_link_options(Game PRIVATE -fsanitize=address)
 

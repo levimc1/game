@@ -4,3 +4,4 @@
 // Azaz include-old és minden jó
 
 #include "context.hpp"
+#include "systems/TestRenderer.hpp"

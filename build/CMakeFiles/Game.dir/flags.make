@@ -7,11 +7,11 @@ C_DEFINES =
 
 C_INCLUDES = -I/home/lev1/Projects/lev1engine/game/src
 
-C_FLAGS = -std=gnu17
+C_FLAGS = -std=gnu17 -g -O0
 
 CXX_DEFINES = 
 
 CXX_INCLUDES = -I/home/lev1/Projects/lev1engine/game/src
 
-CXX_FLAGS = -std=gnu++23
+CXX_FLAGS = -std=gnu++23 -g -O0
 

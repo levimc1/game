@@ -9,7 +9,7 @@
 namespace engine {
 
   template<typename T>
-  concept System = requires(T t, State& s) {
+  concept System = requires(T t, std::vector<State>& s) {
     { t.id } -> std::same_as<size_t&>;
     t.setup(s);
     t.cleanup();
@@ -18,26 +18,26 @@ namespace engine {
   struct Context {
     
     private:
-    static std::vector<State> states;
-    static std::vector<std::function<void()>> stateCleaners;
+    inline static internal::EngineState state;
+    inline static std::vector<std::function<void()>> stateCleaners;
     // csak cleanup, frame 0%-a
 
     public:
     inline static void/*Cseréld LEnum-al ha lesz*/ init() {
-      states.reserve(10);
+      state.states.reserve(10);
       stateCleaners.reserve(10);
     }
 
     template<System S>
     inline static void regSystem(S& sys) {
-      states.push_back(std::monostate());
-      sys.setup(states.back());
+      state.states.push_back(std::monostate());
+      sys.setup(state.states);
       stateCleaners.push_back([&sys]() {sys.cleanup();});
-      sys.id = states.size() -1;
+      sys.id = state.states.size() -1;
     }
 
-    template<S&... Systems>
-    inline static void regSystem(Ss&... systems) {
+    template<System... Systems>
+    inline static void regSystem(Systems&... systems) {
       (regSystem(systems), ...);
     }
     
@@ -46,12 +46,12 @@ namespace engine {
     // Egyetlen célja hogy ne kelljen .beginFrame stb
       
       // Jelenleg ennyire van szükség
-      std::function<void()> condition = [] {return false;};
+      std::function<bool()> condition = [] {return false;};
       std::function<void()> frame     = [] {};
       
     };
     inline static void run(const RunSchema& schema) {
-      while (schema.condition) {
+      while (schema.condition()) {
         schema.frame();
       }
     }
@@ -62,7 +62,6 @@ namespace engine {
       }
     }
 
-    inline static State& getState(size_t index) {return states[index];}
       
   };
 

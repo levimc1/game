@@ -129,221 +129,101 @@ Game/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/build
 .PHONY : Game/fast
 
-src/engine/init.o: src/engine/init.cpp.o
-.PHONY : src/engine/init.o
+src/engine/systems/TestRenderer/cleanup.o: src/engine/systems/TestRenderer/cleanup.cpp.o
+.PHONY : src/engine/systems/TestRenderer/cleanup.o
 
 # target to build an object file
-src/engine/init.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/init.cpp.o
-.PHONY : src/engine/init.cpp.o
+src/engine/systems/TestRenderer/cleanup.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/systems/TestRenderer/cleanup.cpp.o
+.PHONY : src/engine/systems/TestRenderer/cleanup.cpp.o
 
-src/engine/init.i: src/engine/init.cpp.i
-.PHONY : src/engine/init.i
+src/engine/systems/TestRenderer/cleanup.i: src/engine/systems/TestRenderer/cleanup.cpp.i
+.PHONY : src/engine/systems/TestRenderer/cleanup.i
 
 # target to preprocess a source file
-src/engine/init.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/init.cpp.i
-.PHONY : src/engine/init.cpp.i
+src/engine/systems/TestRenderer/cleanup.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/systems/TestRenderer/cleanup.cpp.i
+.PHONY : src/engine/systems/TestRenderer/cleanup.cpp.i
 
-src/engine/init.s: src/engine/init.cpp.s
-.PHONY : src/engine/init.s
+src/engine/systems/TestRenderer/cleanup.s: src/engine/systems/TestRenderer/cleanup.cpp.s
+.PHONY : src/engine/systems/TestRenderer/cleanup.s
 
 # target to generate assembly for a file
-src/engine/init.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/init.cpp.s
-.PHONY : src/engine/init.cpp.s
+src/engine/systems/TestRenderer/cleanup.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/systems/TestRenderer/cleanup.cpp.s
+.PHONY : src/engine/systems/TestRenderer/cleanup.cpp.s
 
-src/engine/runtime/bind.o: src/engine/runtime/bind.cpp.o
-.PHONY : src/engine/runtime/bind.o
+src/engine/systems/TestRenderer/draw.o: src/engine/systems/TestRenderer/draw.cpp.o
+.PHONY : src/engine/systems/TestRenderer/draw.o
 
 # target to build an object file
-src/engine/runtime/bind.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/bind.cpp.o
-.PHONY : src/engine/runtime/bind.cpp.o
+src/engine/systems/TestRenderer/draw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/systems/TestRenderer/draw.cpp.o
+.PHONY : src/engine/systems/TestRenderer/draw.cpp.o
 
-src/engine/runtime/bind.i: src/engine/runtime/bind.cpp.i
-.PHONY : src/engine/runtime/bind.i
+src/engine/systems/TestRenderer/draw.i: src/engine/systems/TestRenderer/draw.cpp.i
+.PHONY : src/engine/systems/TestRenderer/draw.i
 
 # target to preprocess a source file
-src/engine/runtime/bind.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/bind.cpp.i
-.PHONY : src/engine/runtime/bind.cpp.i
+src/engine/systems/TestRenderer/draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/systems/TestRenderer/draw.cpp.i
+.PHONY : src/engine/systems/TestRenderer/draw.cpp.i
 
-src/engine/runtime/bind.s: src/engine/runtime/bind.cpp.s
-.PHONY : src/engine/runtime/bind.s
+src/engine/systems/TestRenderer/draw.s: src/engine/systems/TestRenderer/draw.cpp.s
+.PHONY : src/engine/systems/TestRenderer/draw.s
 
 # target to generate assembly for a file
-src/engine/runtime/bind.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/bind.cpp.s
-.PHONY : src/engine/runtime/bind.cpp.s
+src/engine/systems/TestRenderer/draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/systems/TestRenderer/draw.cpp.s
+.PHONY : src/engine/systems/TestRenderer/draw.cpp.s
 
-src/engine/runtime/create_state.o: src/engine/runtime/create_state.cpp.o
-.PHONY : src/engine/runtime/create_state.o
+src/engine/systems/TestRenderer/setup.o: src/engine/systems/TestRenderer/setup.cpp.o
+.PHONY : src/engine/systems/TestRenderer/setup.o
 
 # target to build an object file
-src/engine/runtime/create_state.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/create_state.cpp.o
-.PHONY : src/engine/runtime/create_state.cpp.o
+src/engine/systems/TestRenderer/setup.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/systems/TestRenderer/setup.cpp.o
+.PHONY : src/engine/systems/TestRenderer/setup.cpp.o
 
-src/engine/runtime/create_state.i: src/engine/runtime/create_state.cpp.i
-.PHONY : src/engine/runtime/create_state.i
+src/engine/systems/TestRenderer/setup.i: src/engine/systems/TestRenderer/setup.cpp.i
+.PHONY : src/engine/systems/TestRenderer/setup.i
 
 # target to preprocess a source file
-src/engine/runtime/create_state.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/create_state.cpp.i
-.PHONY : src/engine/runtime/create_state.cpp.i
+src/engine/systems/TestRenderer/setup.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/systems/TestRenderer/setup.cpp.i
+.PHONY : src/engine/systems/TestRenderer/setup.cpp.i
 
-src/engine/runtime/create_state.s: src/engine/runtime/create_state.cpp.s
-.PHONY : src/engine/runtime/create_state.s
+src/engine/systems/TestRenderer/setup.s: src/engine/systems/TestRenderer/setup.cpp.s
+.PHONY : src/engine/systems/TestRenderer/setup.s
 
 # target to generate assembly for a file
-src/engine/runtime/create_state.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/create_state.cpp.s
-.PHONY : src/engine/runtime/create_state.cpp.s
+src/engine/systems/TestRenderer/setup.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/systems/TestRenderer/setup.cpp.s
+.PHONY : src/engine/systems/TestRenderer/setup.cpp.s
 
-src/engine/runtime/functions/draw.o: src/engine/runtime/functions/draw.cpp.o
-.PHONY : src/engine/runtime/functions/draw.o
+src/engine/systems/TestRenderer/shaderloader.o: src/engine/systems/TestRenderer/shaderloader.cpp.o
+.PHONY : src/engine/systems/TestRenderer/shaderloader.o
 
 # target to build an object file
-src/engine/runtime/functions/draw.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/functions/draw.cpp.o
-.PHONY : src/engine/runtime/functions/draw.cpp.o
+src/engine/systems/TestRenderer/shaderloader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/systems/TestRenderer/shaderloader.cpp.o
+.PHONY : src/engine/systems/TestRenderer/shaderloader.cpp.o
 
-src/engine/runtime/functions/draw.i: src/engine/runtime/functions/draw.cpp.i
-.PHONY : src/engine/runtime/functions/draw.i
-
-# target to preprocess a source file
-src/engine/runtime/functions/draw.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/functions/draw.cpp.i
-.PHONY : src/engine/runtime/functions/draw.cpp.i
-
-src/engine/runtime/functions/draw.s: src/engine/runtime/functions/draw.cpp.s
-.PHONY : src/engine/runtime/functions/draw.s
-
-# target to generate assembly for a file
-src/engine/runtime/functions/draw.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/functions/draw.cpp.s
-.PHONY : src/engine/runtime/functions/draw.cpp.s
-
-src/engine/runtime/internal/cleanup.o: src/engine/runtime/internal/cleanup.cpp.o
-.PHONY : src/engine/runtime/internal/cleanup.o
-
-# target to build an object file
-src/engine/runtime/internal/cleanup.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/internal/cleanup.cpp.o
-.PHONY : src/engine/runtime/internal/cleanup.cpp.o
-
-src/engine/runtime/internal/cleanup.i: src/engine/runtime/internal/cleanup.cpp.i
-.PHONY : src/engine/runtime/internal/cleanup.i
+src/engine/systems/TestRenderer/shaderloader.i: src/engine/systems/TestRenderer/shaderloader.cpp.i
+.PHONY : src/engine/systems/TestRenderer/shaderloader.i
 
 # target to preprocess a source file
-src/engine/runtime/internal/cleanup.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/internal/cleanup.cpp.i
-.PHONY : src/engine/runtime/internal/cleanup.cpp.i
+src/engine/systems/TestRenderer/shaderloader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/systems/TestRenderer/shaderloader.cpp.i
+.PHONY : src/engine/systems/TestRenderer/shaderloader.cpp.i
 
-src/engine/runtime/internal/cleanup.s: src/engine/runtime/internal/cleanup.cpp.s
-.PHONY : src/engine/runtime/internal/cleanup.s
-
-# target to generate assembly for a file
-src/engine/runtime/internal/cleanup.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/internal/cleanup.cpp.s
-.PHONY : src/engine/runtime/internal/cleanup.cpp.s
-
-src/engine/runtime/internal/others.o: src/engine/runtime/internal/others.cpp.o
-.PHONY : src/engine/runtime/internal/others.o
-
-# target to build an object file
-src/engine/runtime/internal/others.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/internal/others.cpp.o
-.PHONY : src/engine/runtime/internal/others.cpp.o
-
-src/engine/runtime/internal/others.i: src/engine/runtime/internal/others.cpp.i
-.PHONY : src/engine/runtime/internal/others.i
-
-# target to preprocess a source file
-src/engine/runtime/internal/others.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/internal/others.cpp.i
-.PHONY : src/engine/runtime/internal/others.cpp.i
-
-src/engine/runtime/internal/others.s: src/engine/runtime/internal/others.cpp.s
-.PHONY : src/engine/runtime/internal/others.s
+src/engine/systems/TestRenderer/shaderloader.s: src/engine/systems/TestRenderer/shaderloader.cpp.s
+.PHONY : src/engine/systems/TestRenderer/shaderloader.s
 
 # target to generate assembly for a file
-src/engine/runtime/internal/others.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/internal/others.cpp.s
-.PHONY : src/engine/runtime/internal/others.cpp.s
-
-src/engine/runtime/internal/setup.o: src/engine/runtime/internal/setup.cpp.o
-.PHONY : src/engine/runtime/internal/setup.o
-
-# target to build an object file
-src/engine/runtime/internal/setup.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/internal/setup.cpp.o
-.PHONY : src/engine/runtime/internal/setup.cpp.o
-
-src/engine/runtime/internal/setup.i: src/engine/runtime/internal/setup.cpp.i
-.PHONY : src/engine/runtime/internal/setup.i
-
-# target to preprocess a source file
-src/engine/runtime/internal/setup.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/internal/setup.cpp.i
-.PHONY : src/engine/runtime/internal/setup.cpp.i
-
-src/engine/runtime/internal/setup.s: src/engine/runtime/internal/setup.cpp.s
-.PHONY : src/engine/runtime/internal/setup.s
-
-# target to generate assembly for a file
-src/engine/runtime/internal/setup.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/internal/setup.cpp.s
-.PHONY : src/engine/runtime/internal/setup.cpp.s
-
-src/engine/runtime/run.o: src/engine/runtime/run.cpp.o
-.PHONY : src/engine/runtime/run.o
-
-# target to build an object file
-src/engine/runtime/run.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/run.cpp.o
-.PHONY : src/engine/runtime/run.cpp.o
-
-src/engine/runtime/run.i: src/engine/runtime/run.cpp.i
-.PHONY : src/engine/runtime/run.i
-
-# target to preprocess a source file
-src/engine/runtime/run.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/run.cpp.i
-.PHONY : src/engine/runtime/run.cpp.i
-
-src/engine/runtime/run.s: src/engine/runtime/run.cpp.s
-.PHONY : src/engine/runtime/run.s
-
-# target to generate assembly for a file
-src/engine/runtime/run.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/run.cpp.s
-.PHONY : src/engine/runtime/run.cpp.s
-
-src/engine/runtime/utils/load_shader.o: src/engine/runtime/utils/load_shader.cpp.o
-.PHONY : src/engine/runtime/utils/load_shader.o
-
-# target to build an object file
-src/engine/runtime/utils/load_shader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/utils/load_shader.cpp.o
-.PHONY : src/engine/runtime/utils/load_shader.cpp.o
-
-src/engine/runtime/utils/load_shader.i: src/engine/runtime/utils/load_shader.cpp.i
-.PHONY : src/engine/runtime/utils/load_shader.i
-
-# target to preprocess a source file
-src/engine/runtime/utils/load_shader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/utils/load_shader.cpp.i
-.PHONY : src/engine/runtime/utils/load_shader.cpp.i
-
-src/engine/runtime/utils/load_shader.s: src/engine/runtime/utils/load_shader.cpp.s
-.PHONY : src/engine/runtime/utils/load_shader.s
-
-# target to generate assembly for a file
-src/engine/runtime/utils/load_shader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/runtime/utils/load_shader.cpp.s
-.PHONY : src/engine/runtime/utils/load_shader.cpp.s
+src/engine/systems/TestRenderer/shaderloader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/systems/TestRenderer/shaderloader.cpp.s
+.PHONY : src/engine/systems/TestRenderer/shaderloader.cpp.s
 
 src/extern/glad.o: src/extern/glad.c.o
 .PHONY : src/extern/glad.o
@@ -426,33 +306,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Game"
-	@echo "... src/engine/init.o"
-	@echo "... src/engine/init.i"
-	@echo "... src/engine/init.s"
-	@echo "... src/engine/runtime/bind.o"
-	@echo "... src/engine/runtime/bind.i"
-	@echo "... src/engine/runtime/bind.s"
-	@echo "... src/engine/runtime/create_state.o"
-	@echo "... src/engine/runtime/create_state.i"
-	@echo "... src/engine/runtime/create_state.s"
-	@echo "... src/engine/runtime/functions/draw.o"
-	@echo "... src/engine/runtime/functions/draw.i"
-	@echo "... src/engine/runtime/functions/draw.s"
-	@echo "... src/engine/runtime/internal/cleanup.o"
-	@echo "... src/engine/runtime/internal/cleanup.i"
-	@echo "... src/engine/runtime/internal/cleanup.s"
-	@echo "... src/engine/runtime/internal/others.o"
-	@echo "... src/engine/runtime/internal/others.i"
-	@echo "... src/engine/runtime/internal/others.s"
-	@echo "... src/engine/runtime/internal/setup.o"
-	@echo "... src/engine/runtime/internal/setup.i"
-	@echo "... src/engine/runtime/internal/setup.s"
-	@echo "... src/engine/runtime/run.o"
-	@echo "... src/engine/runtime/run.i"
-	@echo "... src/engine/runtime/run.s"
-	@echo "... src/engine/runtime/utils/load_shader.o"
-	@echo "... src/engine/runtime/utils/load_shader.i"
-	@echo "... src/engine/runtime/utils/load_shader.s"
+	@echo "... src/engine/systems/TestRenderer/cleanup.o"
+	@echo "... src/engine/systems/TestRenderer/cleanup.i"
+	@echo "... src/engine/systems/TestRenderer/cleanup.s"
+	@echo "... src/engine/systems/TestRenderer/draw.o"
+	@echo "... src/engine/systems/TestRenderer/draw.i"
+	@echo "... src/engine/systems/TestRenderer/draw.s"
+	@echo "... src/engine/systems/TestRenderer/setup.o"
+	@echo "... src/engine/systems/TestRenderer/setup.i"
+	@echo "... src/engine/systems/TestRenderer/setup.s"
+	@echo "... src/engine/systems/TestRenderer/shaderloader.o"
+	@echo "... src/engine/systems/TestRenderer/shaderloader.i"
+	@echo "... src/engine/systems/TestRenderer/shaderloader.s"
 	@echo "... src/extern/glad.o"
 	@echo "... src/extern/glad.i"
 	@echo "... src/extern/glad.s"

@@ -1,3 +1,4 @@
+#include "engine/context.hpp"
 #include "engine/engine.hpp"
 #include <print>
 
@@ -7,7 +8,23 @@ int main() {
 
   std::println("Hello, {}", "World!");
   
-  engine::Context::init();
+  Context::init();
 
+  TestRenderer renderer{    
+  };
 
+  Context::regSystem(renderer);
+
+  Context::run({
+    .condition = {[&](){
+      return renderer.condition(); 
+    }},
+    .frame = {[&](){
+      renderer.draw();
+    }}
+  });
+
+  Context::cleanup();
+
+  return 0;
 }
