@@ -9,10 +9,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/lev1/Projects/lev1engine/game/src/extern/glad.c" "CMakeFiles/Game.dir/src/extern/glad.c.o" "gcc" "CMakeFiles/Game.dir/src/extern/glad.c.o.d"
-  "/home/lev1/Projects/lev1engine/game/src/engine/systems/TestRenderer/cleanup.cpp" "CMakeFiles/Game.dir/src/engine/systems/TestRenderer/cleanup.cpp.o" "gcc" "CMakeFiles/Game.dir/src/engine/systems/TestRenderer/cleanup.cpp.o.d"
+  "/home/lev1/Projects/lev1engine/game/src/engine/systems/RendererShared/cleanup.cpp" "CMakeFiles/Game.dir/src/engine/systems/RendererShared/cleanup.cpp.o" "gcc" "CMakeFiles/Game.dir/src/engine/systems/RendererShared/cleanup.cpp.o.d"
+  "/home/lev1/Projects/lev1engine/game/src/engine/systems/RendererShared/frame.cpp" "CMakeFiles/Game.dir/src/engine/systems/RendererShared/frame.cpp.o" "gcc" "CMakeFiles/Game.dir/src/engine/systems/RendererShared/frame.cpp.o.d"
+  "/home/lev1/Projects/lev1engine/game/src/engine/systems/RendererShared/setup.cpp" "CMakeFiles/Game.dir/src/engine/systems/RendererShared/setup.cpp.o" "gcc" "CMakeFiles/Game.dir/src/engine/systems/RendererShared/setup.cpp.o.d"
+  "/home/lev1/Projects/lev1engine/game/src/engine/systems/RendererShared/shaderloader.cpp" "CMakeFiles/Game.dir/src/engine/systems/RendererShared/shaderloader.cpp.o" "gcc" "CMakeFiles/Game.dir/src/engine/systems/RendererShared/shaderloader.cpp.o.d"
   "/home/lev1/Projects/lev1engine/game/src/engine/systems/TestRenderer/draw.cpp" "CMakeFiles/Game.dir/src/engine/systems/TestRenderer/draw.cpp.o" "gcc" "CMakeFiles/Game.dir/src/engine/systems/TestRenderer/draw.cpp.o.d"
   "/home/lev1/Projects/lev1engine/game/src/engine/systems/TestRenderer/setup.cpp" "CMakeFiles/Game.dir/src/engine/systems/TestRenderer/setup.cpp.o" "gcc" "CMakeFiles/Game.dir/src/engine/systems/TestRenderer/setup.cpp.o.d"
-  "/home/lev1/Projects/lev1engine/game/src/engine/systems/TestRenderer/shaderloader.cpp" "CMakeFiles/Game.dir/src/engine/systems/TestRenderer/shaderloader.cpp.o" "gcc" "CMakeFiles/Game.dir/src/engine/systems/TestRenderer/shaderloader.cpp.o.d"
   "/home/lev1/Projects/lev1engine/game/src/extern/glm/detail/glm.cpp" "CMakeFiles/Game.dir/src/extern/glm/detail/glm.cpp.o" "gcc" "CMakeFiles/Game.dir/src/extern/glm/detail/glm.cpp.o.d"
   "/home/lev1/Projects/lev1engine/game/src/main.cpp" "CMakeFiles/Game.dir/src/main.cpp.o" "gcc" "CMakeFiles/Game.dir/src/main.cpp.o.d"
   "" "Game" "gcc" "CMakeFiles/Game.dir/link.d"

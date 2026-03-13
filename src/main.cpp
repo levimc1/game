@@ -24,7 +24,5 @@ int main() {
     }}
   });
 
-  Context::cleanup();
-
   return 0;
 }

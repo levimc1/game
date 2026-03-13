@@ -26,13 +26,14 @@ namespace engine {
     public:
         
     void setup(std::vector<State>& state);
-    void cleanup();
+    inline void cleanup() {};
+    inline void useShareds() {internal::EngineSharedState::useRenderer();};
 
     // Funkció
     void draw();
     inline bool condition() {
       auto& state = getState();
-      return !glfwWindowShouldClose(state.window);
+      return !glfwWindowShouldClose(internal::EngineSharedState::getRenderer().window);
     }
     
   };  

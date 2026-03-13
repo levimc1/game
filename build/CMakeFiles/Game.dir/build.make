@@ -72,24 +72,66 @@ include CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/codegen:
 .PHONY : CMakeFiles/Game.dir/codegen
 
-CMakeFiles/Game.dir/src/engine/systems/TestRenderer/cleanup.cpp.o: CMakeFiles/Game.dir/flags.make
-CMakeFiles/Game.dir/src/engine/systems/TestRenderer/cleanup.cpp.o: /home/lev1/Projects/lev1engine/game/src/engine/systems/TestRenderer/cleanup.cpp
-CMakeFiles/Game.dir/src/engine/systems/TestRenderer/cleanup.cpp.o: CMakeFiles/Game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lev1/Projects/lev1engine/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Game.dir/src/engine/systems/TestRenderer/cleanup.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Game.dir/src/engine/systems/TestRenderer/cleanup.cpp.o -MF CMakeFiles/Game.dir/src/engine/systems/TestRenderer/cleanup.cpp.o.d -o CMakeFiles/Game.dir/src/engine/systems/TestRenderer/cleanup.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/systems/TestRenderer/cleanup.cpp
+CMakeFiles/Game.dir/src/engine/systems/RendererShared/cleanup.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/src/engine/systems/RendererShared/cleanup.cpp.o: /home/lev1/Projects/lev1engine/game/src/engine/systems/RendererShared/cleanup.cpp
+CMakeFiles/Game.dir/src/engine/systems/RendererShared/cleanup.cpp.o: CMakeFiles/Game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lev1/Projects/lev1engine/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Game.dir/src/engine/systems/RendererShared/cleanup.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Game.dir/src/engine/systems/RendererShared/cleanup.cpp.o -MF CMakeFiles/Game.dir/src/engine/systems/RendererShared/cleanup.cpp.o.d -o CMakeFiles/Game.dir/src/engine/systems/RendererShared/cleanup.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/systems/RendererShared/cleanup.cpp
 
-CMakeFiles/Game.dir/src/engine/systems/TestRenderer/cleanup.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Game.dir/src/engine/systems/TestRenderer/cleanup.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lev1/Projects/lev1engine/game/src/engine/systems/TestRenderer/cleanup.cpp > CMakeFiles/Game.dir/src/engine/systems/TestRenderer/cleanup.cpp.i
+CMakeFiles/Game.dir/src/engine/systems/RendererShared/cleanup.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Game.dir/src/engine/systems/RendererShared/cleanup.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lev1/Projects/lev1engine/game/src/engine/systems/RendererShared/cleanup.cpp > CMakeFiles/Game.dir/src/engine/systems/RendererShared/cleanup.cpp.i
 
-CMakeFiles/Game.dir/src/engine/systems/TestRenderer/cleanup.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Game.dir/src/engine/systems/TestRenderer/cleanup.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lev1/Projects/lev1engine/game/src/engine/systems/TestRenderer/cleanup.cpp -o CMakeFiles/Game.dir/src/engine/systems/TestRenderer/cleanup.cpp.s
+CMakeFiles/Game.dir/src/engine/systems/RendererShared/cleanup.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Game.dir/src/engine/systems/RendererShared/cleanup.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lev1/Projects/lev1engine/game/src/engine/systems/RendererShared/cleanup.cpp -o CMakeFiles/Game.dir/src/engine/systems/RendererShared/cleanup.cpp.s
+
+CMakeFiles/Game.dir/src/engine/systems/RendererShared/frame.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/src/engine/systems/RendererShared/frame.cpp.o: /home/lev1/Projects/lev1engine/game/src/engine/systems/RendererShared/frame.cpp
+CMakeFiles/Game.dir/src/engine/systems/RendererShared/frame.cpp.o: CMakeFiles/Game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lev1/Projects/lev1engine/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Game.dir/src/engine/systems/RendererShared/frame.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Game.dir/src/engine/systems/RendererShared/frame.cpp.o -MF CMakeFiles/Game.dir/src/engine/systems/RendererShared/frame.cpp.o.d -o CMakeFiles/Game.dir/src/engine/systems/RendererShared/frame.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/systems/RendererShared/frame.cpp
+
+CMakeFiles/Game.dir/src/engine/systems/RendererShared/frame.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Game.dir/src/engine/systems/RendererShared/frame.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lev1/Projects/lev1engine/game/src/engine/systems/RendererShared/frame.cpp > CMakeFiles/Game.dir/src/engine/systems/RendererShared/frame.cpp.i
+
+CMakeFiles/Game.dir/src/engine/systems/RendererShared/frame.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Game.dir/src/engine/systems/RendererShared/frame.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lev1/Projects/lev1engine/game/src/engine/systems/RendererShared/frame.cpp -o CMakeFiles/Game.dir/src/engine/systems/RendererShared/frame.cpp.s
+
+CMakeFiles/Game.dir/src/engine/systems/RendererShared/setup.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/src/engine/systems/RendererShared/setup.cpp.o: /home/lev1/Projects/lev1engine/game/src/engine/systems/RendererShared/setup.cpp
+CMakeFiles/Game.dir/src/engine/systems/RendererShared/setup.cpp.o: CMakeFiles/Game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lev1/Projects/lev1engine/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Game.dir/src/engine/systems/RendererShared/setup.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Game.dir/src/engine/systems/RendererShared/setup.cpp.o -MF CMakeFiles/Game.dir/src/engine/systems/RendererShared/setup.cpp.o.d -o CMakeFiles/Game.dir/src/engine/systems/RendererShared/setup.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/systems/RendererShared/setup.cpp
+
+CMakeFiles/Game.dir/src/engine/systems/RendererShared/setup.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Game.dir/src/engine/systems/RendererShared/setup.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lev1/Projects/lev1engine/game/src/engine/systems/RendererShared/setup.cpp > CMakeFiles/Game.dir/src/engine/systems/RendererShared/setup.cpp.i
+
+CMakeFiles/Game.dir/src/engine/systems/RendererShared/setup.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Game.dir/src/engine/systems/RendererShared/setup.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lev1/Projects/lev1engine/game/src/engine/systems/RendererShared/setup.cpp -o CMakeFiles/Game.dir/src/engine/systems/RendererShared/setup.cpp.s
+
+CMakeFiles/Game.dir/src/engine/systems/RendererShared/shaderloader.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/src/engine/systems/RendererShared/shaderloader.cpp.o: /home/lev1/Projects/lev1engine/game/src/engine/systems/RendererShared/shaderloader.cpp
+CMakeFiles/Game.dir/src/engine/systems/RendererShared/shaderloader.cpp.o: CMakeFiles/Game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lev1/Projects/lev1engine/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Game.dir/src/engine/systems/RendererShared/shaderloader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Game.dir/src/engine/systems/RendererShared/shaderloader.cpp.o -MF CMakeFiles/Game.dir/src/engine/systems/RendererShared/shaderloader.cpp.o.d -o CMakeFiles/Game.dir/src/engine/systems/RendererShared/shaderloader.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/systems/RendererShared/shaderloader.cpp
+
+CMakeFiles/Game.dir/src/engine/systems/RendererShared/shaderloader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Game.dir/src/engine/systems/RendererShared/shaderloader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lev1/Projects/lev1engine/game/src/engine/systems/RendererShared/shaderloader.cpp > CMakeFiles/Game.dir/src/engine/systems/RendererShared/shaderloader.cpp.i
+
+CMakeFiles/Game.dir/src/engine/systems/RendererShared/shaderloader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Game.dir/src/engine/systems/RendererShared/shaderloader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lev1/Projects/lev1engine/game/src/engine/systems/RendererShared/shaderloader.cpp -o CMakeFiles/Game.dir/src/engine/systems/RendererShared/shaderloader.cpp.s
 
 CMakeFiles/Game.dir/src/engine/systems/TestRenderer/draw.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/src/engine/systems/TestRenderer/draw.cpp.o: /home/lev1/Projects/lev1engine/game/src/engine/systems/TestRenderer/draw.cpp
 CMakeFiles/Game.dir/src/engine/systems/TestRenderer/draw.cpp.o: CMakeFiles/Game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lev1/Projects/lev1engine/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Game.dir/src/engine/systems/TestRenderer/draw.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lev1/Projects/lev1engine/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Game.dir/src/engine/systems/TestRenderer/draw.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Game.dir/src/engine/systems/TestRenderer/draw.cpp.o -MF CMakeFiles/Game.dir/src/engine/systems/TestRenderer/draw.cpp.o.d -o CMakeFiles/Game.dir/src/engine/systems/TestRenderer/draw.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/systems/TestRenderer/draw.cpp
 
 CMakeFiles/Game.dir/src/engine/systems/TestRenderer/draw.cpp.i: cmake_force
@@ -103,7 +145,7 @@ CMakeFiles/Game.dir/src/engine/systems/TestRenderer/draw.cpp.s: cmake_force
 CMakeFiles/Game.dir/src/engine/systems/TestRenderer/setup.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/src/engine/systems/TestRenderer/setup.cpp.o: /home/lev1/Projects/lev1engine/game/src/engine/systems/TestRenderer/setup.cpp
 CMakeFiles/Game.dir/src/engine/systems/TestRenderer/setup.cpp.o: CMakeFiles/Game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lev1/Projects/lev1engine/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Game.dir/src/engine/systems/TestRenderer/setup.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lev1/Projects/lev1engine/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Game.dir/src/engine/systems/TestRenderer/setup.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Game.dir/src/engine/systems/TestRenderer/setup.cpp.o -MF CMakeFiles/Game.dir/src/engine/systems/TestRenderer/setup.cpp.o.d -o CMakeFiles/Game.dir/src/engine/systems/TestRenderer/setup.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/systems/TestRenderer/setup.cpp
 
 CMakeFiles/Game.dir/src/engine/systems/TestRenderer/setup.cpp.i: cmake_force
@@ -114,24 +156,10 @@ CMakeFiles/Game.dir/src/engine/systems/TestRenderer/setup.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Game.dir/src/engine/systems/TestRenderer/setup.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lev1/Projects/lev1engine/game/src/engine/systems/TestRenderer/setup.cpp -o CMakeFiles/Game.dir/src/engine/systems/TestRenderer/setup.cpp.s
 
-CMakeFiles/Game.dir/src/engine/systems/TestRenderer/shaderloader.cpp.o: CMakeFiles/Game.dir/flags.make
-CMakeFiles/Game.dir/src/engine/systems/TestRenderer/shaderloader.cpp.o: /home/lev1/Projects/lev1engine/game/src/engine/systems/TestRenderer/shaderloader.cpp
-CMakeFiles/Game.dir/src/engine/systems/TestRenderer/shaderloader.cpp.o: CMakeFiles/Game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lev1/Projects/lev1engine/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Game.dir/src/engine/systems/TestRenderer/shaderloader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Game.dir/src/engine/systems/TestRenderer/shaderloader.cpp.o -MF CMakeFiles/Game.dir/src/engine/systems/TestRenderer/shaderloader.cpp.o.d -o CMakeFiles/Game.dir/src/engine/systems/TestRenderer/shaderloader.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/systems/TestRenderer/shaderloader.cpp
-
-CMakeFiles/Game.dir/src/engine/systems/TestRenderer/shaderloader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Game.dir/src/engine/systems/TestRenderer/shaderloader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lev1/Projects/lev1engine/game/src/engine/systems/TestRenderer/shaderloader.cpp > CMakeFiles/Game.dir/src/engine/systems/TestRenderer/shaderloader.cpp.i
-
-CMakeFiles/Game.dir/src/engine/systems/TestRenderer/shaderloader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Game.dir/src/engine/systems/TestRenderer/shaderloader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lev1/Projects/lev1engine/game/src/engine/systems/TestRenderer/shaderloader.cpp -o CMakeFiles/Game.dir/src/engine/systems/TestRenderer/shaderloader.cpp.s
-
 CMakeFiles/Game.dir/src/extern/glad.c.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/src/extern/glad.c.o: /home/lev1/Projects/lev1engine/game/src/extern/glad.c
 CMakeFiles/Game.dir/src/extern/glad.c.o: CMakeFiles/Game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lev1/Projects/lev1engine/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Game.dir/src/extern/glad.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lev1/Projects/lev1engine/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Game.dir/src/extern/glad.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Game.dir/src/extern/glad.c.o -MF CMakeFiles/Game.dir/src/extern/glad.c.o.d -o CMakeFiles/Game.dir/src/extern/glad.c.o -c /home/lev1/Projects/lev1engine/game/src/extern/glad.c
 
 CMakeFiles/Game.dir/src/extern/glad.c.i: cmake_force
@@ -145,7 +173,7 @@ CMakeFiles/Game.dir/src/extern/glad.c.s: cmake_force
 CMakeFiles/Game.dir/src/extern/glm/detail/glm.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/src/extern/glm/detail/glm.cpp.o: /home/lev1/Projects/lev1engine/game/src/extern/glm/detail/glm.cpp
 CMakeFiles/Game.dir/src/extern/glm/detail/glm.cpp.o: CMakeFiles/Game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lev1/Projects/lev1engine/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Game.dir/src/extern/glm/detail/glm.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lev1/Projects/lev1engine/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Game.dir/src/extern/glm/detail/glm.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Game.dir/src/extern/glm/detail/glm.cpp.o -MF CMakeFiles/Game.dir/src/extern/glm/detail/glm.cpp.o.d -o CMakeFiles/Game.dir/src/extern/glm/detail/glm.cpp.o -c /home/lev1/Projects/lev1engine/game/src/extern/glm/detail/glm.cpp
 
 CMakeFiles/Game.dir/src/extern/glm/detail/glm.cpp.i: cmake_force
@@ -159,7 +187,7 @@ CMakeFiles/Game.dir/src/extern/glm/detail/glm.cpp.s: cmake_force
 CMakeFiles/Game.dir/src/main.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/src/main.cpp.o: /home/lev1/Projects/lev1engine/game/src/main.cpp
 CMakeFiles/Game.dir/src/main.cpp.o: CMakeFiles/Game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lev1/Projects/lev1engine/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Game.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lev1/Projects/lev1engine/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Game.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Game.dir/src/main.cpp.o -MF CMakeFiles/Game.dir/src/main.cpp.o.d -o CMakeFiles/Game.dir/src/main.cpp.o -c /home/lev1/Projects/lev1engine/game/src/main.cpp
 
 CMakeFiles/Game.dir/src/main.cpp.i: cmake_force
@@ -172,10 +200,12 @@ CMakeFiles/Game.dir/src/main.cpp.s: cmake_force
 
 # Object files for target Game
 Game_OBJECTS = \
-"CMakeFiles/Game.dir/src/engine/systems/TestRenderer/cleanup.cpp.o" \
+"CMakeFiles/Game.dir/src/engine/systems/RendererShared/cleanup.cpp.o" \
+"CMakeFiles/Game.dir/src/engine/systems/RendererShared/frame.cpp.o" \
+"CMakeFiles/Game.dir/src/engine/systems/RendererShared/setup.cpp.o" \
+"CMakeFiles/Game.dir/src/engine/systems/RendererShared/shaderloader.cpp.o" \
 "CMakeFiles/Game.dir/src/engine/systems/TestRenderer/draw.cpp.o" \
 "CMakeFiles/Game.dir/src/engine/systems/TestRenderer/setup.cpp.o" \
-"CMakeFiles/Game.dir/src/engine/systems/TestRenderer/shaderloader.cpp.o" \
 "CMakeFiles/Game.dir/src/extern/glad.c.o" \
 "CMakeFiles/Game.dir/src/extern/glm/detail/glm.cpp.o" \
 "CMakeFiles/Game.dir/src/main.cpp.o"
@@ -183,10 +213,12 @@ Game_OBJECTS = \
 # External object files for target Game
 Game_EXTERNAL_OBJECTS =
 
-Game: CMakeFiles/Game.dir/src/engine/systems/TestRenderer/cleanup.cpp.o
+Game: CMakeFiles/Game.dir/src/engine/systems/RendererShared/cleanup.cpp.o
+Game: CMakeFiles/Game.dir/src/engine/systems/RendererShared/frame.cpp.o
+Game: CMakeFiles/Game.dir/src/engine/systems/RendererShared/setup.cpp.o
+Game: CMakeFiles/Game.dir/src/engine/systems/RendererShared/shaderloader.cpp.o
 Game: CMakeFiles/Game.dir/src/engine/systems/TestRenderer/draw.cpp.o
 Game: CMakeFiles/Game.dir/src/engine/systems/TestRenderer/setup.cpp.o
-Game: CMakeFiles/Game.dir/src/engine/systems/TestRenderer/shaderloader.cpp.o
 Game: CMakeFiles/Game.dir/src/extern/glad.c.o
 Game: CMakeFiles/Game.dir/src/extern/glm/detail/glm.cpp.o
 Game: CMakeFiles/Game.dir/src/main.cpp.o
@@ -199,7 +231,7 @@ Game: /usr/lib/libOpenGL.so
 Game: /usr/lib/libGLX.so
 Game: /usr/lib/libGLU.so
 Game: CMakeFiles/Game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/lev1/Projects/lev1engine/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/lev1/Projects/lev1engine/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

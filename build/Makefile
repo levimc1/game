@@ -129,29 +129,101 @@ Game/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/build
 .PHONY : Game/fast
 
-src/engine/systems/TestRenderer/cleanup.o: src/engine/systems/TestRenderer/cleanup.cpp.o
-.PHONY : src/engine/systems/TestRenderer/cleanup.o
+src/engine/systems/RendererShared/cleanup.o: src/engine/systems/RendererShared/cleanup.cpp.o
+.PHONY : src/engine/systems/RendererShared/cleanup.o
 
 # target to build an object file
-src/engine/systems/TestRenderer/cleanup.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/systems/TestRenderer/cleanup.cpp.o
-.PHONY : src/engine/systems/TestRenderer/cleanup.cpp.o
+src/engine/systems/RendererShared/cleanup.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/systems/RendererShared/cleanup.cpp.o
+.PHONY : src/engine/systems/RendererShared/cleanup.cpp.o
 
-src/engine/systems/TestRenderer/cleanup.i: src/engine/systems/TestRenderer/cleanup.cpp.i
-.PHONY : src/engine/systems/TestRenderer/cleanup.i
+src/engine/systems/RendererShared/cleanup.i: src/engine/systems/RendererShared/cleanup.cpp.i
+.PHONY : src/engine/systems/RendererShared/cleanup.i
 
 # target to preprocess a source file
-src/engine/systems/TestRenderer/cleanup.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/systems/TestRenderer/cleanup.cpp.i
-.PHONY : src/engine/systems/TestRenderer/cleanup.cpp.i
+src/engine/systems/RendererShared/cleanup.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/systems/RendererShared/cleanup.cpp.i
+.PHONY : src/engine/systems/RendererShared/cleanup.cpp.i
 
-src/engine/systems/TestRenderer/cleanup.s: src/engine/systems/TestRenderer/cleanup.cpp.s
-.PHONY : src/engine/systems/TestRenderer/cleanup.s
+src/engine/systems/RendererShared/cleanup.s: src/engine/systems/RendererShared/cleanup.cpp.s
+.PHONY : src/engine/systems/RendererShared/cleanup.s
 
 # target to generate assembly for a file
-src/engine/systems/TestRenderer/cleanup.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/systems/TestRenderer/cleanup.cpp.s
-.PHONY : src/engine/systems/TestRenderer/cleanup.cpp.s
+src/engine/systems/RendererShared/cleanup.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/systems/RendererShared/cleanup.cpp.s
+.PHONY : src/engine/systems/RendererShared/cleanup.cpp.s
+
+src/engine/systems/RendererShared/frame.o: src/engine/systems/RendererShared/frame.cpp.o
+.PHONY : src/engine/systems/RendererShared/frame.o
+
+# target to build an object file
+src/engine/systems/RendererShared/frame.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/systems/RendererShared/frame.cpp.o
+.PHONY : src/engine/systems/RendererShared/frame.cpp.o
+
+src/engine/systems/RendererShared/frame.i: src/engine/systems/RendererShared/frame.cpp.i
+.PHONY : src/engine/systems/RendererShared/frame.i
+
+# target to preprocess a source file
+src/engine/systems/RendererShared/frame.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/systems/RendererShared/frame.cpp.i
+.PHONY : src/engine/systems/RendererShared/frame.cpp.i
+
+src/engine/systems/RendererShared/frame.s: src/engine/systems/RendererShared/frame.cpp.s
+.PHONY : src/engine/systems/RendererShared/frame.s
+
+# target to generate assembly for a file
+src/engine/systems/RendererShared/frame.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/systems/RendererShared/frame.cpp.s
+.PHONY : src/engine/systems/RendererShared/frame.cpp.s
+
+src/engine/systems/RendererShared/setup.o: src/engine/systems/RendererShared/setup.cpp.o
+.PHONY : src/engine/systems/RendererShared/setup.o
+
+# target to build an object file
+src/engine/systems/RendererShared/setup.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/systems/RendererShared/setup.cpp.o
+.PHONY : src/engine/systems/RendererShared/setup.cpp.o
+
+src/engine/systems/RendererShared/setup.i: src/engine/systems/RendererShared/setup.cpp.i
+.PHONY : src/engine/systems/RendererShared/setup.i
+
+# target to preprocess a source file
+src/engine/systems/RendererShared/setup.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/systems/RendererShared/setup.cpp.i
+.PHONY : src/engine/systems/RendererShared/setup.cpp.i
+
+src/engine/systems/RendererShared/setup.s: src/engine/systems/RendererShared/setup.cpp.s
+.PHONY : src/engine/systems/RendererShared/setup.s
+
+# target to generate assembly for a file
+src/engine/systems/RendererShared/setup.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/systems/RendererShared/setup.cpp.s
+.PHONY : src/engine/systems/RendererShared/setup.cpp.s
+
+src/engine/systems/RendererShared/shaderloader.o: src/engine/systems/RendererShared/shaderloader.cpp.o
+.PHONY : src/engine/systems/RendererShared/shaderloader.o
+
+# target to build an object file
+src/engine/systems/RendererShared/shaderloader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/systems/RendererShared/shaderloader.cpp.o
+.PHONY : src/engine/systems/RendererShared/shaderloader.cpp.o
+
+src/engine/systems/RendererShared/shaderloader.i: src/engine/systems/RendererShared/shaderloader.cpp.i
+.PHONY : src/engine/systems/RendererShared/shaderloader.i
+
+# target to preprocess a source file
+src/engine/systems/RendererShared/shaderloader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/systems/RendererShared/shaderloader.cpp.i
+.PHONY : src/engine/systems/RendererShared/shaderloader.cpp.i
+
+src/engine/systems/RendererShared/shaderloader.s: src/engine/systems/RendererShared/shaderloader.cpp.s
+.PHONY : src/engine/systems/RendererShared/shaderloader.s
+
+# target to generate assembly for a file
+src/engine/systems/RendererShared/shaderloader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/systems/RendererShared/shaderloader.cpp.s
+.PHONY : src/engine/systems/RendererShared/shaderloader.cpp.s
 
 src/engine/systems/TestRenderer/draw.o: src/engine/systems/TestRenderer/draw.cpp.o
 .PHONY : src/engine/systems/TestRenderer/draw.o
@@ -200,30 +272,6 @@ src/engine/systems/TestRenderer/setup.s: src/engine/systems/TestRenderer/setup.c
 src/engine/systems/TestRenderer/setup.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/systems/TestRenderer/setup.cpp.s
 .PHONY : src/engine/systems/TestRenderer/setup.cpp.s
-
-src/engine/systems/TestRenderer/shaderloader.o: src/engine/systems/TestRenderer/shaderloader.cpp.o
-.PHONY : src/engine/systems/TestRenderer/shaderloader.o
-
-# target to build an object file
-src/engine/systems/TestRenderer/shaderloader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/systems/TestRenderer/shaderloader.cpp.o
-.PHONY : src/engine/systems/TestRenderer/shaderloader.cpp.o
-
-src/engine/systems/TestRenderer/shaderloader.i: src/engine/systems/TestRenderer/shaderloader.cpp.i
-.PHONY : src/engine/systems/TestRenderer/shaderloader.i
-
-# target to preprocess a source file
-src/engine/systems/TestRenderer/shaderloader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/systems/TestRenderer/shaderloader.cpp.i
-.PHONY : src/engine/systems/TestRenderer/shaderloader.cpp.i
-
-src/engine/systems/TestRenderer/shaderloader.s: src/engine/systems/TestRenderer/shaderloader.cpp.s
-.PHONY : src/engine/systems/TestRenderer/shaderloader.s
-
-# target to generate assembly for a file
-src/engine/systems/TestRenderer/shaderloader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/engine/systems/TestRenderer/shaderloader.cpp.s
-.PHONY : src/engine/systems/TestRenderer/shaderloader.cpp.s
 
 src/extern/glad.o: src/extern/glad.c.o
 .PHONY : src/extern/glad.o
@@ -306,18 +354,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Game"
-	@echo "... src/engine/systems/TestRenderer/cleanup.o"
-	@echo "... src/engine/systems/TestRenderer/cleanup.i"
-	@echo "... src/engine/systems/TestRenderer/cleanup.s"
+	@echo "... src/engine/systems/RendererShared/cleanup.o"
+	@echo "... src/engine/systems/RendererShared/cleanup.i"
+	@echo "... src/engine/systems/RendererShared/cleanup.s"
+	@echo "... src/engine/systems/RendererShared/frame.o"
+	@echo "... src/engine/systems/RendererShared/frame.i"
+	@echo "... src/engine/systems/RendererShared/frame.s"
+	@echo "... src/engine/systems/RendererShared/setup.o"
+	@echo "... src/engine/systems/RendererShared/setup.i"
+	@echo "... src/engine/systems/RendererShared/setup.s"
+	@echo "... src/engine/systems/RendererShared/shaderloader.o"
+	@echo "... src/engine/systems/RendererShared/shaderloader.i"
+	@echo "... src/engine/systems/RendererShared/shaderloader.s"
 	@echo "... src/engine/systems/TestRenderer/draw.o"
 	@echo "... src/engine/systems/TestRenderer/draw.i"
 	@echo "... src/engine/systems/TestRenderer/draw.s"
 	@echo "... src/engine/systems/TestRenderer/setup.o"
 	@echo "... src/engine/systems/TestRenderer/setup.i"
 	@echo "... src/engine/systems/TestRenderer/setup.s"
-	@echo "... src/engine/systems/TestRenderer/shaderloader.o"
-	@echo "... src/engine/systems/TestRenderer/shaderloader.i"
-	@echo "... src/engine/systems/TestRenderer/shaderloader.s"
 	@echo "... src/extern/glad.o"
 	@echo "... src/extern/glad.i"
 	@echo "... src/extern/glad.s"

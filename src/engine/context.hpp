@@ -4,6 +4,7 @@
 #include <concepts>
 #include <cstdint>
 #include <functional>
+#include <print>
 #include <vector>
 
 namespace engine {
@@ -11,6 +12,7 @@ namespace engine {
   template<typename T>
   concept System = requires(T t, std::vector<State>& s) {
     { t.id } -> std::same_as<size_t&>;
+    t.useShareds();
     t.setup(s);
     t.cleanup();
   };
@@ -19,21 +21,23 @@ namespace engine {
     
     private:
     inline static internal::EngineState state;
+    inline static std::vector<std::function<void()>> stateSetuppers;
     inline static std::vector<std::function<void()>> stateCleaners;
-    // csak cleanup, frame 0%-a
 
     public:
     inline static void/*Cseréld LEnum-al ha lesz*/ init() {
       state.states.reserve(10);
       stateCleaners.reserve(10);
+      stateSetuppers.reserve(10);
     }
 
     template<System S>
     inline static void regSystem(S& sys) {
       state.states.push_back(std::monostate());
-      sys.setup(state.states);
+      stateSetuppers.push_back([&sys]() {sys.setup(state.states);});
       stateCleaners.push_back([&sys]() {sys.cleanup();});
       sys.id = state.states.size() -1;
+      sys.useShareds();
     }
 
     template<System... Systems>
@@ -51,18 +55,30 @@ namespace engine {
       
     };
     inline static void run(const RunSchema& schema) {
-      while (schema.condition()) {
-        schema.frame();
+      for (auto& hook : internal::EngineSharedState::setupHooks) {
+        hook();
       }
-    }
-
-    inline static void cleanup() {
+      for (auto& setupper : stateSetuppers) {
+        setupper();
+      }
+      while (schema.condition()) {
+        for (auto& hook : internal::EngineSharedState::beginFrameHooks) {
+          hook();
+        }
+        schema.frame();
+        for (auto& hook : internal::EngineSharedState::endFrameHooks) {
+          hook();
+        }
+      }
       for (auto& cleaner : stateCleaners) {
         cleaner();
       }
+      for (auto& hook : internal::EngineSharedState::cleanupHooks) {
+        hook();
+      }
+    
     }
 
-      
   };
 
 }

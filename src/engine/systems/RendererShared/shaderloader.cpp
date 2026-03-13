@@ -1,11 +1,11 @@
-#include "data.hpp"
+#include "../RendererShared.hpp"
 #include <fstream>
 #include <sstream>
 #include <stdexcept>
 #include <filesystem>
 #include <unistd.h>
 
-using namespace engine::testrenderer;
+using namespace engine::internal;
 
 namespace {
 	std::string resolvePath(const std::string& relName) {
@@ -49,7 +49,7 @@ namespace {
 	}
 }
 
-GLuint engine::testrenderer::loadShader(const std::string& vertRelPath, const std::string& fragRelPath) {
+GLuint RendererShared::loadShader(const std::string& vertRelPath, const std::string& fragRelPath) {
 	GLuint vert = compileShader(GL_VERTEX_SHADER,   readFile(resolvePath(vertRelPath)));
 	GLuint frag = compileShader(GL_FRAGMENT_SHADER, readFile(resolvePath(fragRelPath)));
 

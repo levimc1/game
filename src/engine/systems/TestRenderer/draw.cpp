@@ -5,7 +5,6 @@ void engine::TestRenderer::draw() {
  
   auto& state = getState();
   
-  glfwMakeContextCurrent(state.window);
 
   glBindVertexArray(state.VAO);
   glUseProgram(state.shaderProgram);
@@ -15,6 +14,4 @@ void engine::TestRenderer::draw() {
   
   glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
   
-  glfwSwapBuffers(state.window);
-  glfwPollEvents();
 }

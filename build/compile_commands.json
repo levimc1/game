@@ -1,9 +1,27 @@
 [
 {
   "directory": "/home/lev1/Projects/lev1engine/game/build",
-  "command": "/usr/bin/c++  -I/home/lev1/Projects/lev1engine/game/src -std=gnu++23 -g -O0 -o CMakeFiles/Game.dir/src/engine/systems/TestRenderer/cleanup.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/systems/TestRenderer/cleanup.cpp",
-  "file": "/home/lev1/Projects/lev1engine/game/src/engine/systems/TestRenderer/cleanup.cpp",
-  "output": "CMakeFiles/Game.dir/src/engine/systems/TestRenderer/cleanup.cpp.o"
+  "command": "/usr/bin/c++  -I/home/lev1/Projects/lev1engine/game/src -std=gnu++23 -g -O0 -o CMakeFiles/Game.dir/src/engine/systems/RendererShared/cleanup.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/systems/RendererShared/cleanup.cpp",
+  "file": "/home/lev1/Projects/lev1engine/game/src/engine/systems/RendererShared/cleanup.cpp",
+  "output": "CMakeFiles/Game.dir/src/engine/systems/RendererShared/cleanup.cpp.o"
+},
+{
+  "directory": "/home/lev1/Projects/lev1engine/game/build",
+  "command": "/usr/bin/c++  -I/home/lev1/Projects/lev1engine/game/src -std=gnu++23 -g -O0 -o CMakeFiles/Game.dir/src/engine/systems/RendererShared/frame.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/systems/RendererShared/frame.cpp",
+  "file": "/home/lev1/Projects/lev1engine/game/src/engine/systems/RendererShared/frame.cpp",
+  "output": "CMakeFiles/Game.dir/src/engine/systems/RendererShared/frame.cpp.o"
+},
+{
+  "directory": "/home/lev1/Projects/lev1engine/game/build",
+  "command": "/usr/bin/c++  -I/home/lev1/Projects/lev1engine/game/src -std=gnu++23 -g -O0 -o CMakeFiles/Game.dir/src/engine/systems/RendererShared/setup.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/systems/RendererShared/setup.cpp",
+  "file": "/home/lev1/Projects/lev1engine/game/src/engine/systems/RendererShared/setup.cpp",
+  "output": "CMakeFiles/Game.dir/src/engine/systems/RendererShared/setup.cpp.o"
+},
+{
+  "directory": "/home/lev1/Projects/lev1engine/game/build",
+  "command": "/usr/bin/c++  -I/home/lev1/Projects/lev1engine/game/src -std=gnu++23 -g -O0 -o CMakeFiles/Game.dir/src/engine/systems/RendererShared/shaderloader.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/systems/RendererShared/shaderloader.cpp",
+  "file": "/home/lev1/Projects/lev1engine/game/src/engine/systems/RendererShared/shaderloader.cpp",
+  "output": "CMakeFiles/Game.dir/src/engine/systems/RendererShared/shaderloader.cpp.o"
 },
 {
   "directory": "/home/lev1/Projects/lev1engine/game/build",
@@ -16,12 +34,6 @@
   "command": "/usr/bin/c++  -I/home/lev1/Projects/lev1engine/game/src -std=gnu++23 -g -O0 -o CMakeFiles/Game.dir/src/engine/systems/TestRenderer/setup.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/systems/TestRenderer/setup.cpp",
   "file": "/home/lev1/Projects/lev1engine/game/src/engine/systems/TestRenderer/setup.cpp",
   "output": "CMakeFiles/Game.dir/src/engine/systems/TestRenderer/setup.cpp.o"
-},
-{
-  "directory": "/home/lev1/Projects/lev1engine/game/build",
-  "command": "/usr/bin/c++  -I/home/lev1/Projects/lev1engine/game/src -std=gnu++23 -g -O0 -o CMakeFiles/Game.dir/src/engine/systems/TestRenderer/shaderloader.cpp.o -c /home/lev1/Projects/lev1engine/game/src/engine/systems/TestRenderer/shaderloader.cpp",
-  "file": "/home/lev1/Projects/lev1engine/game/src/engine/systems/TestRenderer/shaderloader.cpp",
-  "output": "CMakeFiles/Game.dir/src/engine/systems/TestRenderer/shaderloader.cpp.o"
 },
 {
   "directory": "/home/lev1/Projects/lev1engine/game/build",
