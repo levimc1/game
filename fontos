@@ -1,3 +1,9 @@
 nem connection + schema
 helyette valami beállítás builder.
 
+
+terv a rendererhez.
+sima instancelt render, SpriteRenderer2D, TileWorld2D, TileWorldRenderer2D - kb
+meg kéne valami ResourceManager, betölt file-okból, stb. 
+
+Szrrintem kezdjük TileWorldRenderer2D-vel, textúrák nélkül.
