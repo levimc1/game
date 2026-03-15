@@ -1,5 +1,6 @@
 #pragma once
 
+#include "engine/state.hpp"
 #include <string>
 
 //OPenGL include-ok talán
@@ -9,19 +10,22 @@
 
 namespace engine::internal {
 
-  struct RendererShared {
+  struct RendererShared : public Shared {
     
+    RendererShared() : Shared(SystemDesc("RendererShared", SystemDesc::Setup | SystemDesc::Cleanup | SystemDesc::PreFrame | SystemDesc::PostFrame)) {} 
+
     // Hookok
-    void setup();
-    void beginFrame();
-    void endFrame();
-    void cleanup();
+    void setup() override;
+    void preFrame() override;
+    void postFrame() override;
+    void cleanup() override;
 
     // Közös state változók
     inline static GLFWwindow* window;
 
     // AI mer nincs idegem ezt megírni újra.
     static GLuint loadShader(const std::string& verRelPath, const std::string& fragRelPath);
+    inline bool condition() {return !glfwWindowShouldClose(window);}
 
     static inline float vertices[] = {
       -0.5f, -0.5f, 0.0f, // Alsó bal

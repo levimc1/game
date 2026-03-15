@@ -7,6 +7,7 @@
 #include <print>
 #include <vector>
 
+/*
 namespace engine {
 
   template<typename T>
@@ -25,7 +26,7 @@ namespace engine {
     inline static std::vector<std::function<void()>> stateCleaners;
 
     public:
-    inline static void/*Cseréld LEnum-al ha lesz*/ init() {
+    inline static void/*Cseréld LEnum-al ha lesz init() {
       state.states.reserve(10);
       stateCleaners.reserve(10);
       stateSetuppers.reserve(10);
@@ -78,6 +79,54 @@ namespace engine {
       }
     
     }
+
+  };
+
+}*/
+
+namespace engine {
+
+  struct Context {
+    
+    template<typename T> 
+    requires std::derived_from<T, internal::System>
+    inline static void regSystem(T& system) {
+      internal::EngineState::regSystem(system);
+    } // mert így kényelmesebb
+    
+
+    struct RunSchema {
+      std::function<bool()> running;
+      std::function<void()> frame;
+    };
+
+    inline static void run(const RunSchema& schema) {
+      for ( auto& shared : internal::EngineState::getHooks<internal::Shared, internal::EngineState::HookType::Setup>() )
+        shared->setup();
+      for ( auto& system : internal::EngineState::getHooks<internal::System, internal::EngineState::HookType::Setup>() )
+        system->setup();
+
+      
+      while (schema.running()) {
+        for ( auto& shared : internal::EngineState::getHooks<internal::Shared, internal::EngineState::HookType::PreFrame>() )
+          shared->preFrame();
+        for ( auto& system : internal::EngineState::getHooks<internal::System, internal::EngineState::HookType::PreFrame>() )
+          system->preFrame();
+
+        schema.frame();
+
+        for ( auto& system : internal::EngineState::getHooks<internal::System, internal::EngineState::HookType::PostFrame>() )
+          system->postFrame();
+        for ( auto& shared : internal::EngineState::getHooks<internal::Shared, internal::EngineState::HookType::PostFrame>() )
+          shared->postFrame();
+      }
+    
+      for ( auto& system : internal::EngineState::getHooks<internal::System, internal::EngineState::HookType::Cleanup>() )
+        system->cleanup();
+      for ( auto& shared : internal::EngineState::getHooks<internal::Shared, internal::EngineState::HookType::Cleanup>() )
+        shared->cleanup();
+
+    } 
 
   };
 

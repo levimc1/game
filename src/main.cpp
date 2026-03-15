@@ -1,4 +1,3 @@
-#include "engine/context.hpp"
 #include "engine/engine.hpp"
 #include <print>
 
@@ -8,20 +7,17 @@ int main() {
 
   std::println("Hello, {}", "World!");
   
-  Context::init();
-
-  TestRenderer renderer{    
-  };
+  TestRenderer renderer{};
 
   Context::regSystem(renderer);
 
-  Context::run({
-    .condition = {[&](){
+  Context::run(Context::RunSchema{
+    .running = [&](){
       return renderer.condition(); 
-    }},
-    .frame = {[&](){
+    },
+    .frame = [&](){
       renderer.draw();
-    }}
+    }
   });
 
   return 0;

@@ -2,13 +2,13 @@
 
 using namespace engine::internal;
 
-void RendererShared::beginFrame() {
+void RendererShared::preFrame() {
 
   glfwMakeContextCurrent(window);
 
 }
 
-void RendererShared::endFrame() {
+void RendererShared::postFrame() {
 
   glfwSwapBuffers(window);
   glfwPollEvents();

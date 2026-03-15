@@ -10,10 +10,9 @@ using namespace engine;
 
 using Shared = internal::RendererShared;
 
-void TestRenderer::setup(std::vector<State>& s) {
+void TestRenderer::setup() {
   
-  s[id] = internal::TestRendererState{};
-  auto& state = getState();
+  auto& state = internal::EngineState::getState<internal::TestRendererState>(id);
   
   // Bufferek és stb
   

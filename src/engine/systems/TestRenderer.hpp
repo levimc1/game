@@ -1,10 +1,11 @@
 #pragma once
 
+#include "engine/systems/RendererShared.hpp"
 #include "engine/systems/TestRendererState.hpp"
 #include <cstddef>
 #include <engine/state.hpp>
 
-namespace engine {
+/*namespace engine {
   
   struct TestRendererSchema {
 
@@ -37,5 +38,25 @@ namespace engine {
     }
     
   };  
+
+}*/
+
+namespace engine {
+
+  struct TestRenderer : public internal::System {
+    
+    TestRenderer() : internal::System(internal::SystemDesc("TestRenderer", internal::SystemDesc::Setup)) {}
+
+    void makeState() override {
+      id = internal::EngineState::makeState<internal::TestRendererState>();
+      internal::EngineState::regShared<internal::RendererShared>();
+    }
+
+    void setup() override;
+
+    void draw();
+    inline bool condition() {return internal::EngineState::getShared<internal::RendererShared>().condition();}
+
+  };
 
 }

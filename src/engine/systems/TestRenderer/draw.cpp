@@ -3,8 +3,7 @@
 
 void engine::TestRenderer::draw() {
  
-  auto& state = getState();
-  
+  auto& state = internal::EngineState::getState<internal::TestRendererState>(id);
 
   glBindVertexArray(state.VAO);
   glUseProgram(state.shaderProgram);
