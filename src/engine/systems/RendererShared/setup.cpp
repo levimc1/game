@@ -15,11 +15,13 @@ void RendererShared::setup() {
   glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
   glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
-  window = glfwCreateWindow(800, 600, "Windows 13", NULL, NULL);
+  window = glfwCreateWindow(800, 600, windowTitle.c_str(), NULL, NULL);
   glfwMakeContextCurrent(window);
 
   gladLoadGLLoader((GLADloadproc)glfwGetProcAddress);
 
   glViewport(0, 0, 800, 600);
   glfwSetFramebufferSizeCallback(window, framebufferSizeCallback);
+
+  glEnable(GL_DEPTH_TEST);
 }

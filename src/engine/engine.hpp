@@ -5,3 +5,4 @@
 
 #include "context.hpp"
 #include "systems/TestRenderer.hpp"
+#include "systems/SpriteRenderer2D.hpp"

@@ -3,7 +3,7 @@ project(Game C CXX)
 
 # C17 - Nem tudom mi lehet benne :/
 set(CMAKE_C_STANDARD 17)
-set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD 20)
 
 include_directories(${PROJECT_SOURCE_DIR}/src)
 

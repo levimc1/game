@@ -25,18 +25,18 @@ void TestRenderer::setup() {
   glBindVertexArray(state.VAO);
 
   glBindBuffer(GL_ARRAY_BUFFER, state.VBO);
-  glBufferData(GL_ARRAY_BUFFER, sizeof(Shared::vertices), Shared::vertices, GL_STATIC_DRAW);
+  glBufferData(GL_ARRAY_BUFFER, sizeof(Shared::q_vertices), Shared::q_vertices, GL_STATIC_DRAW);
   
   glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, state.EBO);
-  glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(Shared::indices), Shared::indices, GL_STATIC_DRAW);
+  glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(Shared::q_indices), Shared::q_indices, GL_STATIC_DRAW);
 
   glVertexAttribPointer(
       0,                  // A atrribute száma
       3,                  // Komponensek száma
       GL_FLOAT,           // Komponensek típusa
       GL_FALSE,           // Normalizáció
-      3 * sizeof(float),  // Stride mérete        (teljes méret) 
-      (void*)0            // Offset az előzőtől   (Offset a teljes méretben)
+      sizeof(Shared::QuadVertex),         // Stride mérete        (teljes méret) 
+      (void*)offsetof(Shared::QuadVertex, pos)   // Offset az előzőtől   (Offset a teljes méretben)
   );
   glEnableVertexAttribArray(0);
   

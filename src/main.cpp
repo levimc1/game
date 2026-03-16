@@ -1,13 +1,14 @@
 #include "engine/engine.hpp"
-#include <print>
+//#include <print>
 
 using namespace engine;
 
 int main() {
 
-  std::println("Hello, {}", "World!");
+  //std::println("Hello, {}", "World!");
   
-  TestRenderer renderer{};
+  //TestRenderer renderer{};
+  SpriteRenderer2D renderer{};
 
   Context::regSystem(renderer);
 

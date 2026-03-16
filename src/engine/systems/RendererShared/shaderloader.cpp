@@ -3,21 +3,30 @@
 #include <sstream>
 #include <stdexcept>
 #include <filesystem>
+#ifdef _WIN32
+#include <windows.h>
+#else
 #include <unistd.h>
+#endif
 
 using namespace engine::internal;
 
 namespace {
-	std::string resolvePath(const std::string& relName) {
-		char buf[4096];
-		ssize_t len = readlink("/proc/self/exe", buf, sizeof(buf) - 1);
-		if (len == -1)
-			throw std::runtime_error("ShaderLoader: /proc/self/exe unreadable");
-		buf[len] = '\0';
+    std::string resolvePath(const std::string& relName) {
+        char buf[4096];
 
-		std::filesystem::path exeDir = std::filesystem::path(buf).parent_path();
-		return (exeDir / ".." / "src" / "assets" / "shaders" / relName).string();
-	}
+#ifdef _WIN32
+        GetModuleFileNameA(NULL, buf, sizeof(buf));
+#else
+        ssize_t len = readlink("/proc/self/exe", buf, sizeof(buf) - 1);
+        if (len == -1)
+            throw std::runtime_error("ShaderLoader: /proc/self/exe unreadable");
+        buf[len] = '\0';
+#endif
+
+        std::filesystem::path exeDir = std::filesystem::path(buf).parent_path();
+        return (exeDir / ".." / "src" / "assets" / "shaders" / relName).string();
+    }
 
 	std::string readFile(const std::string& path) {
 		std::ifstream file(path);
