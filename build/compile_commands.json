@@ -1,67 +1,67 @@
 [
 {
   "directory": "N:/game/game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IN:/game/game/src -std=gnu++20 -g -O0 -o CMakeFiles\\Game.dir\\src\\engine\\systems\\RendererShared\\cleanup.cpp.obj -c N:\\game\\game\\src\\engine\\systems\\RendererShared\\cleanup.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IN:/game/game/src -O3 -DNDEBUG -std=gnu++20 -O2 -o CMakeFiles\\Game.dir\\src\\engine\\systems\\RendererShared\\cleanup.cpp.obj -c N:\\game\\game\\src\\engine\\systems\\RendererShared\\cleanup.cpp",
   "file": "N:/game/game/src/engine/systems/RendererShared/cleanup.cpp",
   "output": "N:/game/game/build/CMakeFiles/Game.dir/src/engine/systems/RendererShared/cleanup.cpp.obj"
 },
 {
   "directory": "N:/game/game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IN:/game/game/src -std=gnu++20 -g -O0 -o CMakeFiles\\Game.dir\\src\\engine\\systems\\RendererShared\\frame.cpp.obj -c N:\\game\\game\\src\\engine\\systems\\RendererShared\\frame.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IN:/game/game/src -O3 -DNDEBUG -std=gnu++20 -O2 -o CMakeFiles\\Game.dir\\src\\engine\\systems\\RendererShared\\frame.cpp.obj -c N:\\game\\game\\src\\engine\\systems\\RendererShared\\frame.cpp",
   "file": "N:/game/game/src/engine/systems/RendererShared/frame.cpp",
   "output": "N:/game/game/build/CMakeFiles/Game.dir/src/engine/systems/RendererShared/frame.cpp.obj"
 },
 {
   "directory": "N:/game/game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IN:/game/game/src -std=gnu++20 -g -O0 -o CMakeFiles\\Game.dir\\src\\engine\\systems\\RendererShared\\setup.cpp.obj -c N:\\game\\game\\src\\engine\\systems\\RendererShared\\setup.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IN:/game/game/src -O3 -DNDEBUG -std=gnu++20 -O2 -o CMakeFiles\\Game.dir\\src\\engine\\systems\\RendererShared\\setup.cpp.obj -c N:\\game\\game\\src\\engine\\systems\\RendererShared\\setup.cpp",
   "file": "N:/game/game/src/engine/systems/RendererShared/setup.cpp",
   "output": "N:/game/game/build/CMakeFiles/Game.dir/src/engine/systems/RendererShared/setup.cpp.obj"
 },
 {
   "directory": "N:/game/game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IN:/game/game/src -std=gnu++20 -g -O0 -o CMakeFiles\\Game.dir\\src\\engine\\systems\\RendererShared\\shaderloader.cpp.obj -c N:\\game\\game\\src\\engine\\systems\\RendererShared\\shaderloader.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IN:/game/game/src -O3 -DNDEBUG -std=gnu++20 -O2 -o CMakeFiles\\Game.dir\\src\\engine\\systems\\RendererShared\\shaderloader.cpp.obj -c N:\\game\\game\\src\\engine\\systems\\RendererShared\\shaderloader.cpp",
   "file": "N:/game/game/src/engine/systems/RendererShared/shaderloader.cpp",
   "output": "N:/game/game/build/CMakeFiles/Game.dir/src/engine/systems/RendererShared/shaderloader.cpp.obj"
 },
 {
   "directory": "N:/game/game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IN:/game/game/src -std=gnu++20 -g -O0 -o CMakeFiles\\Game.dir\\src\\engine\\systems\\SpriteRenderer2D\\draw.cpp.obj -c N:\\game\\game\\src\\engine\\systems\\SpriteRenderer2D\\draw.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IN:/game/game/src -O3 -DNDEBUG -std=gnu++20 -O2 -o CMakeFiles\\Game.dir\\src\\engine\\systems\\SpriteRenderer2D\\draw.cpp.obj -c N:\\game\\game\\src\\engine\\systems\\SpriteRenderer2D\\draw.cpp",
   "file": "N:/game/game/src/engine/systems/SpriteRenderer2D/draw.cpp",
   "output": "N:/game/game/build/CMakeFiles/Game.dir/src/engine/systems/SpriteRenderer2D/draw.cpp.obj"
 },
 {
   "directory": "N:/game/game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IN:/game/game/src -std=gnu++20 -g -O0 -o CMakeFiles\\Game.dir\\src\\engine\\systems\\SpriteRenderer2D\\setup.cpp.obj -c N:\\game\\game\\src\\engine\\systems\\SpriteRenderer2D\\setup.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IN:/game/game/src -O3 -DNDEBUG -std=gnu++20 -O2 -o CMakeFiles\\Game.dir\\src\\engine\\systems\\SpriteRenderer2D\\setup.cpp.obj -c N:\\game\\game\\src\\engine\\systems\\SpriteRenderer2D\\setup.cpp",
   "file": "N:/game/game/src/engine/systems/SpriteRenderer2D/setup.cpp",
   "output": "N:/game/game/build/CMakeFiles/Game.dir/src/engine/systems/SpriteRenderer2D/setup.cpp.obj"
 },
 {
   "directory": "N:/game/game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IN:/game/game/src -std=gnu++20 -g -O0 -o CMakeFiles\\Game.dir\\src\\engine\\systems\\TestRenderer\\draw.cpp.obj -c N:\\game\\game\\src\\engine\\systems\\TestRenderer\\draw.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IN:/game/game/src -O3 -DNDEBUG -std=gnu++20 -O2 -o CMakeFiles\\Game.dir\\src\\engine\\systems\\TestRenderer\\draw.cpp.obj -c N:\\game\\game\\src\\engine\\systems\\TestRenderer\\draw.cpp",
   "file": "N:/game/game/src/engine/systems/TestRenderer/draw.cpp",
   "output": "N:/game/game/build/CMakeFiles/Game.dir/src/engine/systems/TestRenderer/draw.cpp.obj"
 },
 {
   "directory": "N:/game/game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IN:/game/game/src -std=gnu++20 -g -O0 -o CMakeFiles\\Game.dir\\src\\engine\\systems\\TestRenderer\\setup.cpp.obj -c N:\\game\\game\\src\\engine\\systems\\TestRenderer\\setup.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IN:/game/game/src -O3 -DNDEBUG -std=gnu++20 -O2 -o CMakeFiles\\Game.dir\\src\\engine\\systems\\TestRenderer\\setup.cpp.obj -c N:\\game\\game\\src\\engine\\systems\\TestRenderer\\setup.cpp",
   "file": "N:/game/game/src/engine/systems/TestRenderer/setup.cpp",
   "output": "N:/game/game/build/CMakeFiles/Game.dir/src/engine/systems/TestRenderer/setup.cpp.obj"
 },
 {
   "directory": "N:/game/game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\cc.exe -IN:/game/game/src -std=gnu17 -g -O0 -o CMakeFiles\\Game.dir\\src\\extern\\glad.c.obj -c N:\\game\\game\\src\\extern\\glad.c",
+  "command": "C:\\msys64\\ucrt64\\bin\\cc.exe -IN:/game/game/src -O3 -DNDEBUG -std=gnu17 -O2 -o CMakeFiles\\Game.dir\\src\\extern\\glad.c.obj -c N:\\game\\game\\src\\extern\\glad.c",
   "file": "N:/game/game/src/extern/glad.c",
   "output": "N:/game/game/build/CMakeFiles/Game.dir/src/extern/glad.c.obj"
 },
 {
   "directory": "N:/game/game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IN:/game/game/src -std=gnu++20 -g -O0 -o CMakeFiles\\Game.dir\\src\\extern\\glm\\detail\\glm.cpp.obj -c N:\\game\\game\\src\\extern\\glm\\detail\\glm.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IN:/game/game/src -O3 -DNDEBUG -std=gnu++20 -O2 -o CMakeFiles\\Game.dir\\src\\extern\\glm\\detail\\glm.cpp.obj -c N:\\game\\game\\src\\extern\\glm\\detail\\glm.cpp",
   "file": "N:/game/game/src/extern/glm/detail/glm.cpp",
   "output": "N:/game/game/build/CMakeFiles/Game.dir/src/extern/glm/detail/glm.cpp.obj"
 },
 {
   "directory": "N:/game/game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IN:/game/game/src -std=gnu++20 -g -O0 -o CMakeFiles\\Game.dir\\src\\main.cpp.obj -c N:\\game\\game\\src\\main.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IN:/game/game/src -O3 -DNDEBUG -std=gnu++20 -O2 -o CMakeFiles\\Game.dir\\src\\main.cpp.obj -c N:\\game\\game\\src\\main.cpp",
   "file": "N:/game/game/src/main.cpp",
   "output": "N:/game/game/build/CMakeFiles/Game.dir/src/main.cpp.obj"
 }

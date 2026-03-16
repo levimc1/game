@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 project(Game C CXX)
 
-# C17 - Nem tudom mi lehet benne :/
 set(CMAKE_C_STANDARD 17)
 set(CMAKE_CXX_STANDARD 20)
 
@@ -12,7 +11,6 @@ find_package(PkgConfig REQUIRED)
 pkg_check_modules(GLFW REQUIRED glfw3)
 
 include_directories(${GLFW_INCLUDE_DIRS})
-link_libraries(${GLFW_LIBRARIES} ${OPENGL_LIBRARIES})
 
 file(GLOB_RECURSE SOURCES 
   "src/*.c"
@@ -21,9 +19,12 @@ file(GLOB_RECURSE SOURCES
 
 add_executable(${PROJECT_NAME} ${SOURCES})
 
-target_compile_options(Game PRIVATE -g -O0)
-#target_compile_options(Game PRIVATE -g -fsanitize=address)
-#target_link_options(Game PRIVATE -fsanitize=address)
+target_compile_options(Game PRIVATE
+  $<IF:$<CONFIG:Release>,-O2,-g -O0>
+)
+
+target_link_options(Game PRIVATE
+  $<$<CONFIG:Release>:-static>
+)
 
 target_link_libraries(${PROJECT_NAME} ${GLFW_LIBRARIES} ${OPENGL_LIBRARIES})
-
