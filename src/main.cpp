@@ -1,25 +1,21 @@
-#include "engine/engine.hpp"
-//#include <print>
-
-using namespace engine;
+#include <engine/Renderer.hpp>
+#include <engine/SpriteRenderer2D.hpp>
+#include <engine/registry.hpp>
 
 int main() {
 
-  //std::println("Hello, {}", "World!");
+  auto& renderer = instance<Renderer>();
+  auto& srenderer = instance<SpriteRenderer2D>();
   
-  //TestRenderer renderer{};
-  SpriteRenderer2D renderer{};
+  renderer.setup();
+  srenderer.setup();
 
-  Context::regSystem(renderer);
+  while (!glfwWindowShouldClose(renderer.window)) {
 
-  Context::run(Context::RunSchema{
-    .running = [&](){
-      return renderer.condition(); 
-    },
-    .frame = [&](){
-      renderer.draw();
-    }
-  });
+    renderer.preDraw();
+    srenderer.draw();
+    renderer.postDraw();
+  }
 
-  return 0;
+  renderer.cleanup();
 }

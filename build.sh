@@ -12,4 +12,4 @@ cmake --build build
 echo "[B] építés befejezve ($BUILD_TYPE)"
 echo "[B] futtatható futtatása"
 
-./build/Game.exe
+./build/Game

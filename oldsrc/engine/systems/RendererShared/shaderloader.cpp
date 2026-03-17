@@ -81,3 +81,5 @@ GLuint RendererShared::loadShader(const std::string& vertRelPath, const std::str
 
 	return program;
 }
+
+
